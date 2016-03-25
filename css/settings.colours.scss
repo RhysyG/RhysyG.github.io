@@ -1,0 +1,28 @@
+///*------------------------------------*\
+//    #COLORS
+//\*------------------------------------*/
+
+// Brand
+$color-brand: $brand-color;
+
+// User Interface
+$color-ui: #999;
+$color-ui-light: lighten($color-ui, 7%);
+$color-ui-lighter: lighten($color-ui, 40%);
+
+// Colours
+$color-grey:        #333;
+
+// Page
+$inuit-base-background-color: $color-ui-lighter;
+$inuit-base-text-color: $color-grey;
+$color-text-light: lighten($inuit-base-text-color, 40%);
+
+// Links
+$color-links: $brand-color;
+
+// Buttons
+$color-btn: $color-links;
+
+// Iconic
+$color-iconic: $color-ui;
