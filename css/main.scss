@@ -14,6 +14,9 @@
  * TOOLS
  * Functions............inuitcss’ default functions.
  * Mixins...............inuitcss’ default mixins.
+ * Mixins...............Our default mixins.
+ * Namespaces...........Our namespaces.
+ * Widths...............inuitcss’ width tools.
  * Responsive...........inuitcss’ responsive tooling (requires responsive settings).
  * Aliases..............Aliases onto longer inuitcss variables and mixins.
  *
@@ -55,6 +58,9 @@
  */
 @import "bower_components/inuit-functions/tools.functions";
 @import "bower_components/inuit-mixins/tools.mixins";
+@import "tools.mixins";
+@import "tools.namespaces";
+@import "bower_components/inuit-tools-widths/tools.widths";
 @import "bower_components/inuit-responsive-tools/tools.responsive";
 @import "tools.aliases";
 
@@ -84,7 +90,7 @@
  * #COMPONENTS
  */
 @import "components.buttons";
-//@import "components.page-head";
+@import "components.page-head";
 //@import "components.page-foot";
 //@import "components.site-nav";
 
@@ -93,4 +99,4 @@
  */
 @import "bower_components/inuit-widths/trumps.widths";
 @import "bower_components/inuit-spacing/trumps.spacing";
-@import "bower_components/inuit-spacing/trumps.spacing-responsive";
+@import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";

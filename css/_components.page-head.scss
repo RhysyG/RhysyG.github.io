@@ -1,0 +1,10 @@
+/*------------------------------------*\
+    #PAGE-HEAD
+\*------------------------------------*/
+
+$header-height: 60px;
+
+.#{$components-namespace}page-head {
+	height: $header-height;
+	background:$color-brand;
+}
