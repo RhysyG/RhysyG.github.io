@@ -5,19 +5,36 @@
 
 <body>
 
-	{% include header.html %}
+	<header class="c-page-head">
+	<div class="o-wrapper  o-wrapper--narrow">
+		<div class="c-site-logo"><a href="/">Logo</a></div>
+		<div class="c-site-nav  js-site-nav-btn"><a>≡</a></div>
+		<div class="c-site-nav__list  js-site-nav">
+			<ul class="o-nav  o-nav--stacked  o-nav--block  c-alpha">
+				{% assign url = page.url|remove:'index.html' %}
+				{% for link in site.navigation %}
+				<li><a href="{{link.url}}" title="{{link.title}}" {% if url == link.url %}class="is-active"{% endif %}>{{link.text}}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+		
+		<ul class="c-site-desktop-nav  o-nav  c-tabs">
+			{% for link in site.navigation %}
+			<li><a href="{{link.url}}" title="{{link.title}}" {% if url == link.url %}class="is-active"{% endif %}>{{link.text}}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</header>
 
 	<div class="page-content">
-		<div class="wrapper">
-			{{ content }}
-		</div>
+		{{ content }}
 	</div>
 
 	{% include footer.html %}
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
-	<script src="js/build/main.min.js"></script>
+	<script src="/js/main.min.js"></script>
 
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 	<script>

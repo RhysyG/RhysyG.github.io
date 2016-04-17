@@ -7,12 +7,12 @@ grunt.initConfig({
 	copy: {
 		css : {
 			files: {
-				'_site/css/main.min.css': 'css/build/main.min.css',
+				'_site/css/main.min.css': 'css/main.min.css',
 			}
 		},
 		js : {
 			files: {
-				'_site/js/main.min.js': 'js/build/main.min.js',
+				'_site/js/main.min.js': 'js/main.min.js',
 			}
 		}
 	},
@@ -23,22 +23,23 @@ grunt.initConfig({
 				style: 'expanded'
 			},
 			files: {
-				'css/build/main.min.css': 'css/main.scss',
+				'css/main.min.css': 'css/main.scss',
 			}
 		}
 	},
 
 	uglify: {
 		build: {
-			src: ['js/main.js'],
-			dest: 'js/build/main.min.js'
+			src: ['js/main.js',
+			'js/site-nav.js'],
+			dest: 'js/main.min.js'
 		}
 	},
 
 	autoprefixer: {
 		dist: {
 			files: {
-				'css/build/main.min.css': 'css/build/main.min.css'
+				'css/main.min.css': 'css/main.min.css'
 			}
 		}
 	},
@@ -120,7 +121,7 @@ grunt.loadNpmTasks('grunt-jekyll');
 grunt.loadNpmTasks('grunt-contrib-watch');
 
 // Default task(s).
-grunt.registerTask('default', ['connect', 'watch']);
+grunt.registerTask('default', ['watch']);
 grunt.registerTask('build-scss', ['sass', 'autoprefixer', 'copy']);
 grunt.registerTask('build-jekyll', 'jekyll');
 grunt.registerTask('compressImgs', 'imagemin');

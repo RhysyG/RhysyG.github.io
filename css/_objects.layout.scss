@@ -1,0 +1,24 @@
+/*------------------------------------*\
+	#LAYOUT
+\*------------------------------------*/
+
+$layout-gutter:           $base-spacing-unit !default;
+$layout-gutter--tiny:       quarter($layout-gutter) !default;
+$layout-gutter--small:        halve($layout-gutter) !default;
+$layout-gutter--large:       double($layout-gutter) !default;
+$layout-gutter--huge:     quadruple($layout-gutter) !default;
+
+/**
+ * Begin a layout group.
+ */
+.#{$objects-namespace}layout,
+%#{$objects-namespace}layout {
+	
+}
+
+.#{$objects-namespace}layout__item,
+%#{$objects-namespace}layout__item {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

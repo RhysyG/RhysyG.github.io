@@ -16,14 +16,21 @@ highlighter: rouge
 
 permalink: pretty
 
+# Navigation
+navigation:
+- text: 'Portfolio'
+  url: '/'
+- text: 'About'
+  url: '/about/'
+
 exclude: [
- css/bower_components/,
- css/*.scss,
- js/main.js,
- imgs-src,
- node_modules,
- Gruntfile.js,
- package.json,
- README.md,
- fonts/selection.json
+css/bower_components/,
+css/*.scss,
+js/main.js,
+imgs-src,
+node_modules,
+Gruntfile.js,
+package.json,
+README.md,
+fonts/selection.json
 ]

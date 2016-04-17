@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    #WRAPPERS
+\*------------------------------------*/
+
+.#{$objects-namespace}wrapper {
+	padding: 0 $base-spacing-unit 0 $base-spacing-unit;
+}
+
+.#{$objects-namespace}wrapper--narrow {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.#{$objects-namespace}wrapper--narrower {
+	max-width: 800px;
+	margin: 0 auto;
+}

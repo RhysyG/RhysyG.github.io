@@ -85,12 +85,18 @@
  */
 @import "bower_components/inuit-buttons/objects.buttons";
 @import "bower_components/inuit-layout/objects.layout";
+@import "objects.wrapper";
+@import "objects.nav";
 
 /**
  * #COMPONENTS
  */
 @import "components.buttons";
 @import "components.page-head";
+@import "components.site-nav";
+@import "components.site-desktop-nav";
+@import "components.site-logo";
+@import "components.tabs";
 //@import "components.page-foot";
 //@import "components.site-nav";
 
@@ -100,3 +106,4 @@
 @import "bower_components/inuit-widths/trumps.widths";
 @import "bower_components/inuit-spacing/trumps.spacing";
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
+@import "bower_components/inuit-clearfix/trumps.clearfix";

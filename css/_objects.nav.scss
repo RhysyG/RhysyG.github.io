@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    $NAV
+\*------------------------------------*/
+
+.#{$objects-namespace}nav{
+	list-style:none;
+	margin: 0;
+	display:flex;
+	justify-content: flex-start;
+
+	> li{
+
+		padding-right:$base-spacing-unit;
+		
+		&:last-child {
+			
+			padding-right:0;
+		}
+
+		> a{
+			display:block;
+			&:focus {
+				outline:0;
+				text-decoration: none;
+			}
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.#{$objects-namespace}nav--stacked{
+	flex-flow: column  wrap;
+	> li{
+		padding-right:0;
+	}
+}
+
+.#{$objects-namespace}nav--block{
+	> li{
+		>a {
+			padding:$base-spacing-unit;
+		}
+	}
+}
+
+.#{$objects-namespace}nav--fit{
+	justify-content:space-between;
+	> li{
+		flex-basis: 100%;
+	}
+}
