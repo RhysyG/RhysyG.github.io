@@ -13,12 +13,56 @@ $layout-gutter--huge:     quadruple($layout-gutter) !default;
  */
 .#{$objects-namespace}layout,
 %#{$objects-namespace}layout {
-	
+	list-style: none;
+	margin:  0;
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+	margin-left: -$layout-gutter;
 }
 
 .#{$objects-namespace}layout__item,
 %#{$objects-namespace}layout__item {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+	padding-left: $layout-gutter;
+}
+
+/**
+ * Size modifiers.
+ */
+.#{$objects-namespace}layout--small,
+%#{$objects-namespace}layout--small {
+	padding-left: $layout-gutter--small;
+}
+
+.#{$objects-namespace}layout--large,
+%#{$objects-namespace}layout--large {
+	padding-left: $layout-gutter--large;
+}
+
+/**
+ * Alignemnt modifiers.
+ */
+.#{$objects-namespace}layout--middle,
+%#{$objects-namespace}layout--middle {
+	align-items: center;
+}
+
+.#{$objects-namespace}layout--bottom,
+%#{$objects-namespace}layout--bottom {
+	align-items: flex-end;
+}
+
+.#{$objects-namespace}layout--center,
+%#{$objects-namespace}layout--center {
+	justify-content: center;
+}
+
+.#{$objects-namespace}layout--right,
+%#{$objects-namespace}layout--right {
+	justify-content: flex-end;
+}
+
+.#{$objects-namespace}layout--left,
+%#{$objects-namespace}layout--left {
+	justify-content: flex-start;
 }
