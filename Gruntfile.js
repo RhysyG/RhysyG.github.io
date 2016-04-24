@@ -69,7 +69,7 @@ module.exports = function (grunt) {
                 tasks: ['sass', 'autoprefixer']
             },
             jekyll: {
-                files: ['*.md',  '**/*.md', '*.html'],
+                files: ['**/*.md', '**/*.html', '!**/_site/**'],
                 tasks: ['jekyll']
             } 
         }
