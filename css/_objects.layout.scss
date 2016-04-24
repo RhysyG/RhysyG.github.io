@@ -38,16 +38,37 @@ $layout-gutter--huge:     quadruple($layout-gutter) !default;
 }
 
 /**
- * Size modifiers.
+ * Space modifiers.
  */
 .#{$objects-namespace}layout--small,
 %#{$objects-namespace}layout--small {
-	padding-left: $layout-gutter--small;
+
+	margin-left: $layout-gutter--small;
+
+	> .#{$objects-namespace}layout__item,
+	> %#{$objects-namespace}layout__item {
+			padding-left: $layout-gutter--small;
+	}
 }
 
 .#{$objects-namespace}layout--large,
 %#{$objects-namespace}layout--large {
-	padding-left: $layout-gutter--large;
+	margin-left: $layout-gutter--large;
+
+	> .#{$objects-namespace}layout__item,
+	> %#{$objects-namespace}layout__item {
+			padding-left: $layout-gutter--large;
+	}
+}
+
+.#{$objects-namespace}layout--flush,
+%#{$objects-namespace}layout--flush {
+	margin-left: 0;
+
+	> .#{$objects-namespace}layout__item,
+	> %#{$objects-namespace}layout__item {
+			padding-left: 0;
+	}
 }
 
 /**
@@ -76,4 +97,9 @@ $layout-gutter--huge:     quadruple($layout-gutter) !default;
 .#{$objects-namespace}layout--left,
 %#{$objects-namespace}layout--left {
 	justify-content: flex-start;
+}
+
+.#{$objects-namespace}layout--fit,
+%#{$objects-namespace}layout--fit {
+	justify-content:space-between;
 }
