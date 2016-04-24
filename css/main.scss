@@ -31,6 +31,7 @@
  * Page.................Our page-level styles (HTML element).
  * Headings.............inuitcss’ heading styles
  * Links................Our Hyperlink styles
+ * Images...............inuitcss’ images
  *
  * OBJECTS
  * Buttons..............inuitcss’ buttons module.
@@ -79,12 +80,13 @@
 @import "base.page";
 @import "bower_components/inuit-headings/base.headings";
 @import "base.links";
+@import "bower_components/inuit-images/base.images";
 
 /**
  * #OBJECTS
  */
 @import "bower_components/inuit-buttons/objects.buttons";
-@import "bower_components/inuit-layout/objects.layout";
+@import "objects.layout";
 @import "objects.wrapper";
 @import "objects.nav";
 
@@ -96,6 +98,7 @@
 @import "components.site-nav";
 @import "components.site-desktop-nav";
 @import "components.site-logo";
+@import "components.nav";
 @import "components.tabs";
 //@import "components.page-foot";
 //@import "components.site-nav";
@@ -104,6 +107,7 @@
  * #TRUMPS
  */
 @import "bower_components/inuit-widths/trumps.widths";
+@import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
 @import "bower_components/inuit-spacing/trumps.spacing";
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
 @import "bower_components/inuit-clearfix/trumps.clearfix";
