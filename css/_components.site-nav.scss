@@ -7,7 +7,15 @@
 	@include media-query(lap-and-up) {
 		display:none;
 	}
-	line-height:60px;
+}
+
+.#{$components-namespace}site-nav__link {
+	display:block;
+	padding: 18px $base-spacing-unit;
+	cursor:pointer;
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 .#{$components-namespace}site-nav__list {
