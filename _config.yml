@@ -24,8 +24,7 @@ navigation:
   url: '/about/'
 
 exclude: [
-css/bower_components/,
-css/*.scss,
+css,
 js/main.js,
 imgs-src,
 node_modules,
@@ -34,3 +33,5 @@ package.json,
 README.md,
 fonts/selection.json
 ]
+
+keep_files: ['_site/css']
