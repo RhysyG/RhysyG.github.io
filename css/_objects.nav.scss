@@ -2,52 +2,80 @@
     $NAV
 \*------------------------------------*/
 
-.#{$objects-namespace}nav{
+$nav-gutter:           $base-spacing-unit !default;
+$nav-gutter--tiny:       quarter($nav-gutter) !default;
+$nav-gutter--small:        halve($nav-gutter) !default;
+$nav-gutter--large:       double($nav-gutter) !default;
+$nav-gutter--huge:     quadruple($nav-gutter) !default;
+
+/**
+ * Base Nav styles
+ */
+.#{$objects-namespace}nav,
+%#{$objects-namespace}nav {
 	list-style:none;
 	margin: 0;
+	margin-left: -$nav-gutter;
 	display:flex;
-	justify-content: flex-start;
+	flex-flow: row wrap;
+}
 
-	> li{
+.#{$objects-namespace}nav__item,
+%#{$objects-namespace}nav__item {
+	padding-left: $nav-gutter;
+}
 
-		padding-right:$base-spacing-unit;
-		
-		&:last-child {
-			
-			padding-right:0;
-		}
-
-		> a{
-			display:block;
-			&:focus {
-				outline:0;
-				text-decoration: none;
-			}
-			&:hover {
-				text-decoration: none;
-			}
-		}
+.#{$objects-namespace}nav__link,
+%#{$objects-namespace}nav__link {
+	display:block;
+	&:focus {
+		outline:0;
+		text-decoration: none;
+	}
+	&:hover {
+		text-decoration: none;
 	}
 }
 
-.#{$objects-namespace}nav--stacked{
+/**
+ * Direction modifiers
+ */
+.#{$objects-namespace}nav--stacked,
+%#{$objects-namespace}nav--stacked {
+
+	margin-left: 0;
 	flex-flow: column  wrap;
-	> li{
-		padding-right:0;
+
+	> .#{$objects-namespace}nav__item,
+	> %#{$objects-namespace}nav__item {
+			padding-left: 0;
 	}
 }
 
-.#{$objects-namespace}nav--block{
-	> li{
-		>a {
+/**
+ * Block modifier for chunky button hit areas
+ */
+.#{$objects-namespace}nav--block,
+%#{$objects-namespace}nav--block {
+
+	> .#{$objects-namespace}nav__item,
+	> %#{$objects-namespace}nav__item {
+
+		> .#{$objects-namespace}nav__link,
+		> %#{$objects-namespace}nav__link {
 			padding:$base-spacing-unit;
 		}
 	}
 }
 
-.#{$objects-namespace}nav--fit{
-	justify-content:space-between;
-	> li{
-		flex-basis: 100%;
+/**
+ * Fit modifier
+ */
+.#{$objects-namespace}nav--fit,
+%#{$objects-namespace}nav--fit {
+
+	> .#{$objects-namespace}nav__item,
+	> %#{$objects-namespace}nav__item {
+			flex:1;
 	}
 }
