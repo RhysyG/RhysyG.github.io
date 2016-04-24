@@ -1,0 +1,12 @@
+/*------------------------------------*\
+    #NAV
+\*------------------------------------*/
+
+.#{$components-namespace}nav__link,
+%#{$components-namespace}nav__link {
+	color: $color-ui;
+	@include font-weight(bold);
+	&.#{$state-namespace}active {
+		color:$color-links;
+	}
+}
