@@ -1,129 +1,82 @@
-module.exports = function(grunt) {
+'use strict';
 
-// Project configuration.
-grunt.initConfig({
-	pkg: grunt.file.readJSON('package.json'),
+module.exports = function (grunt) {
 
-	copy: {
-		css : {
-			files: {
-				'_site/css/main.min.css': 'css/main.min.css',
-			}
-		},
-		js : {
-			files: {
-				'_site/js/main.min.js': 'js/main.min.js',
-			}
-		}
-	},
+    // Show elapsed time after tasks run to visualize performance
+    require('time-grunt')(grunt);
+    // Load all Grunt tasks that are listed in package.json automagically
+    require('load-grunt-tasks')(grunt);
 
-	sass: {
-		dist: {
-			options: {
-				style: 'expanded'
-			},
-			files: {
-				'css/main.min.css': 'css/main.scss',
-			}
-		}
-	},
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
 
-	uglify: {
-		build: {
-			src: ['js/main.js',
-			'js/site-nav.js'],
-			dest: 'js/main.min.js'
-		}
-	},
+        // Grunt Jekyll
+        jekyll: {
+            working: {
+              options: {
+                config: '_config.yml',
+                drafts: true
+              }
+            }
+        },
 
-	autoprefixer: {
-		dist: {
-			files: {
-				'css/main.min.css': 'css/main.min.css'
-			}
-		}
-	},
+        // Compile SCSS into CSS
+        sass: {
+            options: {
+                sourceMap: true,
+                relativeAssets: false,
+                outputStyle: 'expanded',
+                sassDir: 'css',
+                cssDir: '_site/css'
+            },
+            build: {
+                files: [{
+                    expand: true,
+                    cwd: 'css/',
+                    src: ['**/*.{scss,sass}'],
+                    dest: '_site/css',
+                    ext: '.min.css'
+                }]
+            }
+        },
 
-	imagemin: {
-		dynamic: {
-			options: {
-				optimizationLevel: 3
-			},
-			files: [{
-				expand: true,
-				cwd: 'img-src/',
-				src: ['**/*.{png,jpg,gif}'],
-				dest: 'img/'
-			}]
-		}
-	},
+        autoprefixer: {
+        	dist: {
+        		files: {
+        			'_site/css/main.min.css': '_site/css/main.min.css'
+        		}
+        	}
+        },
 
-	connect: {
-		server: {
-			options: {
-				port: 9002,
-				base: '.',
-				livereload:true
-			}
-		}
-	},
+        // Fire up a server with live reload
+        connect: {
+            server: {
+                options: {
+                    port: 9003,
+                    base: '_site',
+                    livereload:true
+                }
+            }
+        },
 
-	jekyll: {
-		dist: {
-			options: {
-				dest: '<%= dist %>',
-				config: '_config.yml'
-			}
-		}
-	},
+        // Watch for files to change and run tasks when they do
+        watch: {
+            options: {
+                livereload: true
+            },
+            sass: {
+                files: ['css/**/*.scss'],
+                tasks: ['sass', 'autoprefixer']
+            },
+            jekyll: {
+                files: ['*.md',  '**/*.md', '*.html'],
+                tasks: ['jekyll']
+            } 
+        }
 
-	watch: {
+    });
 
-		options: {
-			livereload: true
-		},
-
-		css: {
-			files: ['css/**/*.scss'],
-			tasks: ['sass', 'autoprefixer', 'copy'],
-		},
-
-		js: {
-			files: ['js/**/*.js', '_includes/**/*.js', '!**/build/**'],
-			tasks: ['uglify', 'copy'],
-		},
-
-		images: {
-			files: ['img-src/**/*.{png,jpg,gif}'],
-			tasks: ['imagemin'],
-			options: {
-				spawn: false,
-			}
-		},
-
-		jekyll: {
-			// capture all except css
-			files: ['*.html', '_includes/**/*.html', '_layouts/**', '_tables/**'],
-			tasks: 'jekyll'
-			}
-	}
-
-});
-
-// Load the plugin that provides the tasks.
-grunt.loadNpmTasks('grunt-contrib-copy');
-grunt.loadNpmTasks('grunt-contrib-uglify');
-grunt.loadNpmTasks('grunt-contrib-sass');
-grunt.loadNpmTasks('grunt-autoprefixer');
-grunt.loadNpmTasks('grunt-contrib-imagemin');
-grunt.loadNpmTasks('grunt-contrib-connect');
-grunt.loadNpmTasks('grunt-jekyll');
-grunt.loadNpmTasks('grunt-contrib-watch');
-
-// Default task(s).
-grunt.registerTask('default', ['watch']);
-grunt.registerTask('build-scss', ['sass', 'autoprefixer', 'copy']);
-grunt.registerTask('build-jekyll', 'jekyll');
-grunt.registerTask('compressImgs', 'imagemin');
+    // Register build as the default task fallback
+    grunt.registerTask('default', ['connect', 'watch'] );
 
 };
