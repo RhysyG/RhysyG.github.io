@@ -1,16 +1,19 @@
 <header class="c-page-head">
-	<div class="o-wrapper  o-wrapper--narrow">
-		<div class="c-site-logo">Logo</div>
-		<div class="c-site-nav  js-site-nav-btn"><a>≡</a></div>
+	<div class="o-wrapper  o-wrapper--narrow  clearfix">
+		<div class="c-site-logo"><a href="/">Logo</a></div>
+		<div class="c-site-nav  js-site-nav-btn"><a class="c-site-nav__link">≡</a></div>
 		<div class="c-site-nav__list  js-site-nav">
 			<ul class="o-nav  o-nav--stacked  o-nav--block">
-
+				{% assign url = page.url|remove:'index.html' %}
+				{% for link in site.navigation %}
+				<li class="o-nav__item"><a href="{{link.url}}" title="{{link.title}}" class="o-nav__link  c-nav__link  {% if url == link.url %}is-active{% endif %}">{{link.text}}</a></li>
+				{% endfor %}
 			</ul>
 		</div>
 		
 		<ul class="c-site-desktop-nav  o-nav  c-tabs">
-			{% for link in page.navigation %}
-				{{link.text}}
+			{% for link in site.navigation %}
+			<li class="o-nav__item"><a href="{{link.url}}" title="{{link.title}}" class="o-nav__link  c-tabs__link  {% if url == link.url %}is-active{% endif %}">{{link.text}}</a></li>
 			{% endfor %}
 		</ul>
 	</div>
