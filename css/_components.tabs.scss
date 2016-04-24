@@ -3,43 +3,32 @@
 \*------------------------------------*/
 
 // Vertical tabs with minimalist bottom bordered brand colour
-.#{$components-namespace}tabs {
-	white-space:nowrap;
-	>li {
-		>a {
-			position:relative;
-			text-transform: uppercase;
-			@include font-weight(bold);
-			color:$color-ui;
-			&:hover {
-				
-			}
-			&.#{$state-namespace}active {
-				color:$color-links;
-				&:after {
-					content:'';
-					display: block;
-					position: absolute;
-					left: 0;
-					bottom: 0;
-					height: 3px;
-					width: 100%;
-					background-color: $color-brand;
-				}
-			}
-		}
-	}
+
+.#{$components-namespace}tabs,
+%#{$components-namespace}tabs {
+	flex-flow: row nowrap;
 }
 
-.#{$components-namespace}alpha {
-	white-space:nowrap;
-	>li {
-		>a {
-			color:inherit;
-			@include inuit-font-size(12px);
-			&.#{$state-namespace}active {
-				color:$color-links;
-			}
+.#{$components-namespace}tabs__link,
+%#{$components-namespace}tabs__link {
+	position: relative;
+	text-transform: uppercase;
+	@include font-weight(bold);
+	color: $color-ui;
+	&:hover {
+		color:darken($color-ui, 10%);
+	}
+	&.#{$state-namespace}active {
+		color:$color-links;
+		&:after {
+			content:'';
+			display: block;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			height: 3px;
+			width: 100%;
+			background-color: $color-brand;
 		}
 	}
 }
