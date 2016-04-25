@@ -3,4 +3,5 @@ _site
 node_modules/
 _site/
 css/build
+css/bower_components
 js/build
