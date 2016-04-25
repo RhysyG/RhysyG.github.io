@@ -48,6 +48,14 @@ module.exports = function (grunt) {
         	}
         },
 
+        // Squash jQuery into one minified file
+        uglify: {
+        	build: {
+        		src: ['js/main.js', 'js/site-nav.js' ],
+        		dest: '_site/js/main.min.js'
+        	}
+        },
+
         // Fire up a server with live reload
         connect: {
             server: {
@@ -62,14 +70,19 @@ module.exports = function (grunt) {
         // Watch for files to change and run tasks when they do
         watch: {
             options: {
+                interval: 5007,
                 livereload: true
             },
             sass: {
                 files: ['css/**/*.scss'],
                 tasks: ['sass', 'autoprefixer']
             },
+            js: {
+            	files: ['js/**/*.js'],
+            	tasks: ['uglify']
+            },
             jekyll: {
-                files: ['**/*.md', '**/*.html', '!**/_site/**'],
+                files: ['**/*.md', '**/*.html', '**/*.markdown' , '!**/_site/**', '!**/node_modules/**'],
                 tasks: ['jekyll']
             } 
         }
