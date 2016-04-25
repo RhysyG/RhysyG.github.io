@@ -22,8 +22,9 @@
 	display:none;
 	position: fixed;
 	top: 62px;
-	background: white;
 	left: 0;
 	right: 0;
 	bottom: 0;
+	z-index:1;
+	background: white;
 }
