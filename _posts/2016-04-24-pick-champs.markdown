@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Pick Champs"
 date:   2016-03-25 11:49:53
 categories: jekyll update
 image: portfolio-item.jpg

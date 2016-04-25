@@ -39,6 +39,7 @@
 
  * COMPONENTS
  * Buttons..............Extension of inuitcss’ buttons.
+ * Portfolio............Portfolio items on homepage.
  *
  * TRUMPS
  * Widths...............inuitcss’ Simple width helper classes.
@@ -100,14 +101,31 @@
 @import "components.site-logo";
 @import "components.nav";
 @import "components.tabs";
+@import "components.portfolio";
 //@import "components.page-foot";
 //@import "components.site-nav";
 
 /**
+ * #UTILITIES
+ */
+@import "utilities.helper";
+
+/**
  * #TRUMPS
  */
-@import "bower_components/inuit-widths/trumps.widths";
+//@import "bower_components/inuit-widths/trumps.widths";
+@import "trumps.widths";
 @import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
+$inuit-enable-margins:true;
+$inuit-enable-margins--large:true;
+$inuit-enable-margins--small:true;
+$inuit-enable-margins--tiny:true;
+$inuit-enable-margins--none:true;
+$inuit-enable-paddings:true;
+$inuit-enable-paddings--none:true;
+$inuit-enable-paddings--tiny:true;
+$inuit-enable-paddings--small:true;
+$inuit-enable-paddings--large:true;
 @import "bower_components/inuit-spacing/trumps.spacing";
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
 @import "bower_components/inuit-clearfix/trumps.clearfix";

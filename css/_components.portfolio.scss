@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #PORTFOLIO
+\*------------------------------------*/
+
+.#{$components-namespace}portfolio__link,
+%#{$components-namespace}portfolio__link {
+	display: block;
+	position: relative;
+	&:hover {
+		> .#{$components-namespace}portfolio__excerpt {
+			display:block;
+		}
+	}
+}
+
+.#{$components-namespace}portfolio__excerpt,
+%#{$components-namespace}portfolio__excerpt {
+	display:none;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	padding: $base-spacing-unit;
+	color: white;
+	background: rgba(#000, .70);
+}
