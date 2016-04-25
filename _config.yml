@@ -34,4 +34,4 @@ README.md,
 fonts/selection.json
 ]
 
-keep_files: ['_site/css']
+keep_files: ['_site/css', '_site/js']
