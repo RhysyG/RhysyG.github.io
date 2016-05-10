@@ -7,8 +7,8 @@ $color-brand: $brand-color;
 
 // User Interface
 $color-ui: #999;
-$color-ui-light: lighten($color-ui, 7%);
-$color-ui-lighter: lighten($color-ui, 40%);
+$color-ui--light: lighten($color-ui, 7%);
+$color-ui--lighter: lighten($color-ui, 30%);
 $color-positive:    #30C67D;
 $color-negative:    #e06055;
 
@@ -16,7 +16,7 @@ $color-negative:    #e06055;
 $color-grey:        #333;
 
 // Page
-$inuit-base-background-color: $color-ui-lighter;
+$inuit-base-background-color: white;
 $inuit-base-text-color: $color-grey;
 $color-text-light: lighten($inuit-base-text-color, 40%);
 
@@ -28,3 +28,6 @@ $color-btn: $color-links;
 
 // Iconic
 $color-iconic: $color-ui;
+
+// Type
+$color-headings: $color-brand;
