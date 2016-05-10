@@ -7,10 +7,11 @@ layout: default
 	{% for post in site.posts %}
 	<li class="o-layout__item  u-1/6  u-1/4-lap  u-1/2-palm">
 		<a href="{{ post.url | prepend: site.baseurl }}" class="c-portfolio__link">
-			<img src="/img/{{ post.image }}">
+			<img src="/img/{{ post.imageThumb }}">
 			<div class="c-portfolio__excerpt">
 				<div><b>{{ post.title}}</b></div>
 				<small>{{ post.excerpt | truncatewords:15}}</small>
+				<small>{{ post.date | date: "%b %-d, %Y" }}</small>
 			</div>
 		</a>
 	</li>
