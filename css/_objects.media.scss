@@ -1,0 +1,118 @@
+/*------------------------------------*\
+	#MEDIA
+\*------------------------------------*/
+
+/**
+ * A flexible abstraction for the Media design pattern in Flexbox.
+ */
+
+$media-gutter:           $base-spacing-unit !default;
+$media-gutter--tiny:       quarter($media-gutter) !default;
+$media-gutter--small:        halve($media-gutter) !default;
+$media-gutter--large:       double($media-gutter) !default;
+$media-gutter--huge:     quadruple($media-gutter) !default;
+
+/**
+ * Begin a media group.
+ */
+.#{$objects-namespace}media,
+%#{$objects-namespace}media {
+	margin-left: -$media-gutter;
+	padding: 0;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+/**
+ * 1. Nudge Mixin to alert for improper use.
+ */
+
+.#{$objects-namespace}media__item,
+%#{$objects-namespace}media__item {
+	//@include nudge-nest('.#{$objects-namespace}media'); /* [1] */
+	padding-left: $media-gutter;
+}
+
+/**
+ * Item modifiers
+ */
+
+.#{$objects-namespace}media__item--full,
+%#{$objects-namespace}media__item--full {
+	flex: 1;
+}
+ 
+.#{$objects-namespace}media__item--right,
+%#{$objects-namespace}media__item--right {
+	margin-left:auto; // Note: All succeeding items will follow
+}
+
+/**
+ * Space modifiers.
+ */
+.#{$objects-namespace}media--small,
+%#{$objects-namespace}media--small {
+
+	margin-left: $media-gutter--small;
+
+	> .#{$objects-namespace}media__item,
+	> %#{$objects-namespace}media__item {
+			padding-left: $media-gutter--small;
+	}
+}
+
+.#{$objects-namespace}media--large,
+%#{$objects-namespace}media--large {
+	margin-left: $media-gutter--large;
+
+	> .#{$objects-namespace}media__item,
+	> %#{$objects-namespace}media__item {
+			padding-left: $media-gutter--large;
+	}
+}
+
+.#{$objects-namespace}media--flush,
+%#{$objects-namespace}media--flush {
+	margin-left: 0;
+
+	> .#{$objects-namespace}media__item,
+	> %#{$objects-namespace}media__item {
+			padding-left: 0;
+	}
+}
+
+/**
+ * Vertical alignemnt modifiers.
+ */
+.#{$objects-namespace}media--middle,
+%#{$objects-namespace}media--middle {
+	align-items: center;
+}
+
+.#{$objects-namespace}media--bottom,
+%#{$objects-namespace}media--bottom {
+	align-items: flex-end;
+}
+
+/**
+ * Horizontal alignemnt modifiers.
+ */
+.#{$objects-namespace}media--center,
+%#{$objects-namespace}media--center {
+	justify-content: center;
+}
+
+.#{$objects-namespace}media--right,
+%#{$objects-namespace}media--right {
+	justify-content: flex-end;
+}
+
+.#{$objects-namespace}media--left,
+%#{$objects-namespace}media--left {
+	justify-content: flex-start;
+}
+
+.#{$objects-namespace}media--fit,
+%#{$objects-namespace}media--fit {
+	justify-content:space-between;
+}
