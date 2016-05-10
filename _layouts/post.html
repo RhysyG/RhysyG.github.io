@@ -1,19 +1,32 @@
 ---
 layout: default
 ---
-<div class="post">
+
+<img src="/img/{{ page.imageHero }}">
+
+<div class="o-wrapper  o-wrapper--narrow  u-pt">
 
 	<header>
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		<h1 class="u-mb0">{{ page.title }}</h1>
+		<p class="u-mb-">by <a>{{ page.author }}</a> on {{ page.date | date: "%b %-d, %Y" }}</p>
+		<small>
+			<p>{% for tag in page.tags %} <a style="color: grey;">{{ tag }}</a>, {% endfor %}</p>
+		</small>
+		<hr>
 	</header>
 
-	{% if page.image %}
-	<img src="/img/{{ page.image }}">
-	{% endif %}
+	
 
-	<article>
+	<article class="u-mb">
 		{{ content }}
 	</article>
 
 </div>
+
+<section class="o-section  c-section  u-pb0">
+	<div class="o-wrapper  o-wrapper--narrow">
+		{% for image in page.images %}
+		<img src="/img/{{ image }}" class="u-mb+">
+		{% endfor %}
+	</div>
+</section>
