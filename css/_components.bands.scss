@@ -1,0 +1,13 @@
+/*------------------------------------*\
+    #BANDS
+\*------------------------------------*/
+
+/**
+*
+ * Used for big divisions of content. Use object Band for space.
+ */
+
+.#{$components-namespace}band,
+%#{$components-namespace}band {
+	background:$color-ui--lighter;
+}
