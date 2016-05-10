@@ -2,6 +2,10 @@
 	#LAYOUT
 \*------------------------------------*/
 
+/**
+ * A flexible abstraction for Grids in Flexbox
+ */
+
 $layout-gutter:           $base-spacing-unit !default;
 $layout-gutter--tiny:       quarter($layout-gutter) !default;
 $layout-gutter--small:        halve($layout-gutter) !default;
@@ -21,9 +25,16 @@ $layout-gutter--huge:     quadruple($layout-gutter) !default;
 	flex-flow: row wrap;
 }
 
+/**
+ * 1. Nudge Mixin to alert for improper use.
+ * 2. Full-width unless told to behave otherwise (Mobile First).
+ */
+
 .#{$objects-namespace}layout__item,
 %#{$objects-namespace}layout__item {
+	@include nudge-nest('.#{$objects-namespace}layout'); /* [1] */
 	padding-left: $layout-gutter;
+	width: 100%; /* [2] */
 }
 
 /**
@@ -74,7 +85,7 @@ $layout-gutter--huge:     quadruple($layout-gutter) !default;
 }
 
 /**
- * Alignemnt modifiers.
+ * Vertical alignemnt modifiers.
  */
 .#{$objects-namespace}layout--middle,
 %#{$objects-namespace}layout--middle {
@@ -86,6 +97,9 @@ $layout-gutter--huge:     quadruple($layout-gutter) !default;
 	align-items: flex-end;
 }
 
+/**
+ * Horizontal alignemnt modifiers.
+ */
 .#{$objects-namespace}layout--center,
 %#{$objects-namespace}layout--center {
 	justify-content: center;
