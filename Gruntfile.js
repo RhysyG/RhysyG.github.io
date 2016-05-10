@@ -15,7 +15,7 @@ module.exports = function (grunt) {
             working: {
               options: {
                 config: '_config.yml',
-                drafts: true
+                //drafts: true
               }
             }
         },
@@ -70,7 +70,7 @@ module.exports = function (grunt) {
         // Watch for files to change and run tasks when they do
         watch: {
             options: {
-                interval: 5007,
+                interval: 500,
                 livereload: true
             },
             sass: {
