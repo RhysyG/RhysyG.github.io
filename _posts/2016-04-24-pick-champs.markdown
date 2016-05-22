@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Pick Champs"
-date: 2016-03-25 11:49:53
+date: 2016-05-05 11:49:53
 author: Rhys Gregory
 categories: portfolio
 tags: [ux design, ui design, front end development]
-imageThumb: item-thumb.jpg
-imageHero: item-hero.jpg
-images: [item-alt.jpg, item-alt.jpg]
+imageThumb: pick-champs__thumb.jpg
+imageHero: pick-champs__hero.jpg
+images: [pick-champs__alt-1.png, pick-champs__alt-2.png]
 ---
 This will be a brief, opening summary of the Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
 
