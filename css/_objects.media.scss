@@ -28,9 +28,16 @@ $media-gutter--huge:     quadruple($media-gutter) !default;
  */
 
 .#{$objects-namespace}media__item,
-%#{$objects-namespace}media__item {
+%#{$objects-namespace}media__item,
+.#{$objects-namespace}media__body,
+%#{$objects-namespace}media__body, {
 	//@include nudge-nest('.#{$objects-namespace}media'); /* [1] */
 	padding-left: $media-gutter;
+}
+
+.#{$objects-namespace}media__body,
+%#{$objects-namespace}media__body {
+	flex: 1;
 }
 
 /**
@@ -41,10 +48,15 @@ $media-gutter--huge:     quadruple($media-gutter) !default;
 %#{$objects-namespace}media__item--full {
 	flex: 1;
 }
- 
+
 .#{$objects-namespace}media__item--right,
 %#{$objects-namespace}media__item--right {
 	margin-left:auto; // Note: All succeeding items will follow
+}
+
+.#{$objects-namespace}media__item--left,
+%#{$objects-namespace}media__item--left {
+	margin-right:auto; // Note: All succeeding items will follow
 }
 
 /**
