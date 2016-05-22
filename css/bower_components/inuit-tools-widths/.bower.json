@@ -22,7 +22,7 @@
     "tag": "0.1.4",
     "commit": "003acb2938b38d56fbee1e0487213f434b3fe09c"
   },
-  "_source": "git://github.com/inuitcss/tools.widths.git",
+  "_source": "https://github.com/inuitcss/tools.widths.git",
   "_target": "~0.1.0",
   "_originalSource": "inuit-tools-widths"
 }
