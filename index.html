@@ -5,65 +5,20 @@ layout: default
 <ul class="o-layout  o-layout--flush  u-mb">
 	{% for i in (1..1) %}
 	{% for post in site.posts %}
-	<li class="o-layout__item  u-1/2  u-1/4-lap  u-1/6-desk">
+	<li class="o-layout__item  u-1/2  u-1/4-lap-and-up">
 		<a href="{{ post.url | prepend: site.baseurl }}" class="c-portfolio__link">
 			<img src="/img/{{ post.imageThumb }}">
 			<div class="c-portfolio__excerpt">
-				<div><b>{{ post.title}}</b></div>
-				<small>{{ post.excerpt | truncatewords:15}}</small>
-				<small>{{ post.date | date: "%b %-d, %Y" }}</small>
+				<div class="o-media">
+					<div class="o-media__item"><b>{{ post.title}}</b></div>
+					<div class="o-media__item  o-media__item--right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></div>
+				</div>
+				<div><small>{% for tag in post.tags %} {{ tag }}, {% endfor %}</small></div>
+				<hr>
+				<small>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords:15 }}</small>
 			</div>
 		</a>
 	</li>
 	{% endfor %}
 	{% endfor %}
 </ul>
-
-<div class="o-wrapper  o-wrapper--narrow">
-
-	<div class="o-media  u-mb">
-		<div class="o-media__item">
-			<img src="img/item-thumb.jpg" width="50">
-		</div>
-		<div class="o-media__item  o-media__item--full">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.</div>
-	</div>
-
-	<div class="o-media  u-mb">
-		<div class="o-media__item">
-			<img src="img/item-thumb.jpg" width="50">
-		</div>
-		<div class="o-media__item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.</div>
-		<div class="o-media__item  o-media__item--right">
-			<img src="img/item-thumb.jpg" width="50">
-		</div>
-	</div>
-
-	<div class="o-media  u-mb">
-		<div class="o-media__item  o-media__item--left">Button 1</div>
-		<div class="o-media__item">Button 2</div>
-		<div class="o-media__item">Button 3</div>
-		<div class="o-media__item">Button 4</div>
-	</div>
-
-	<div class="o-media  u-mb">
-		<div class="o-media__item">Button 1</div>
-		<div class="o-media__item  o-media__item--right">Button 2</div>
-		<div class="o-media__item">Button 3</div>
-		<div class="o-media__item">Button 4</div>
-	</div>
-
-	<div class="o-media  u-mb">
-		<div class="o-media__item  o-media__item--full">Button 1</div>
-		<div class="o-media__item">Button 2</div>
-		<div class="o-media__item">Button 3</div>
-		<div class="o-media__item">Button 4</div>
-	</div>
-
-	<div class="o-media  u-mb">
-		<div class="o-media__body">Button 1</div>
-		<div class="o-media__item">Button 2</div>
-		<div class="o-media__item">Button 3</div>
-		<div class="o-media__item">Button 4</div>
-	</div>
-
-</div>
