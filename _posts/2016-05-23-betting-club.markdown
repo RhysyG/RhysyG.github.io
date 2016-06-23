@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Sport Champs"
-date: 2016-05-20 10:30:00
+title: "Betting Club"
+date: 2016-05-23 10:30:00
 author: Rhys Gregory
 categories: portfolio
 tags: [ux design, ui design, front end development]
-imageThumb: sports-champs__thumb.jpg
-imageHero: sports-champs__hero.jpg
-images: [sports-champs__alt-1.png, sports-champs__alt-2.png]
+imageThumb: betting-club__thumb.jpg
+imageHero: betting-club__hero.jpg
+images: [betting-club__alt-1.png, betting-club__alt-2.png]
 ---
 This will be a brief, opening summary of the Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
 
