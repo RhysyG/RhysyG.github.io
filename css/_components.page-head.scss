@@ -5,8 +5,9 @@
 $header-height: 60px;
 
 .#{$components-namespace}page-head {
+	position: relative;
 	height: $header-height;
 	//background:$color-brand;
-	@include vendor(box-shadow, 0 1px 3px rgba(0,0,0,0.35));
+	@include vendor(box-shadow, 0 1px 5px rgba(0,0,0,0.35));
 	z-index:1;
 }
