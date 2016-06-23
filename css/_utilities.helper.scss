@@ -3,5 +3,8 @@
 \*------------------------------------*/
 
 /**
- * Font sizes
+ * Font alignments
  */
+.#{$utilities-namespace}text-center {
+	text-align: center;
+}
