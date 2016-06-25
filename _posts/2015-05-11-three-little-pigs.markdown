@@ -7,7 +7,7 @@ categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: 3-little-pigs__thumb.jpg
 imageHero: 3-little-pigs__hero.jpg
-images: [3-little-pigs__alt-1.png, 3-little-pigs__alt-2.png]
+images: [3-little-pigs__alt-1.png, 3-little-pigs__alt-2.png, 3-little-pigs__alt-3.png]
 ---
 This will be a brief, opening summary of the Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
 
