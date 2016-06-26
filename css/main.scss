@@ -91,12 +91,27 @@ $nudge-single-spaces: false !default;
 /**
  * #OBJECTS
  */
+$inuit-btn-namespace: $objects-namespace;
+$inuit-btn-background: $color-btn;
+$inuit-btn-border-width: 1px;
+$inuit-enable-btn--tiny:true;
+$inuit-enable-btn--small:true;
+$inuit-enable-btn--large:true;
+$inuit-enable-btn--full:true;
+$inuit-btn-radius:3px;
+$inuit-enable-btn--pill: true;
 @import "bower_components/inuit-buttons/objects.buttons";
 @import "objects.layout";
 @import "objects.media";
 @import "objects.wrapper";
 @import "objects.bands";
 @import "objects.nav";
+$inuit-list-ui-namespace: $objects-namespace;
+$inuit-list-ui-border-color: $color-ui--light;
+$inuit-enable-list-ui--large:true;
+$inuit-enable-list-ui--small:true;
+$inuit-enable-list-ui--tiny: true;
+@import "bower_components/inuit-list-ui/objects.list-ui";
 
 /**
  * #COMPONENTS
@@ -110,8 +125,6 @@ $nudge-single-spaces: false !default;
 @import "components.tabs";
 @import "components.portfolio";
 @import "components.bands";
-//@import "components.page-foot";
-//@import "components.site-nav";
 
 /**
  * #UTILITIES
@@ -121,9 +134,7 @@ $nudge-single-spaces: false !default;
 /**
  * #TRUMPS
  */
-//@import "bower_components/inuit-widths/trumps.widths";
 @import "trumps.widths";
-//@import "bower_components/inuit-widths-responsive/trumps.widths-responsive";
 @import "trumps.widths-responsive";
 $inuit-spacing-namespace: $utilities-namespace;
 $inuit-enable-margins:true;
