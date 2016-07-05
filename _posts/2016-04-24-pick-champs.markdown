@@ -3,6 +3,8 @@ layout: post
 title: "Pick Champs"
 date: 2016-04-05 11:49:53
 author: Rhys Gregory
+company: Artisan Digital
+companyURL: http://artisandd.com.au
 categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: pick-champs__thumb.jpg

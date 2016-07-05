@@ -8,7 +8,7 @@ layout: default
 
 	<header>
 		<h1 class="u-mb0">{{ page.title }}</h1>
-		<p class="u-mb-">by <a>{{ page.author }}</a> on {{ page.date | date: "%b %-d, %Y" }}</p>
+		<p class="u-mb-">{% if page.role %}{{page.role}} {% endif %}by <a>{{ page.author }}</a> {% if page.company %}at <a href="{{ page.companyURL }}" target="_blank">{{ page.company }}</a>{% endif %} on {{ page.date | date: "%b %-d, %Y" }}</p>
 		<small>
 			<p>{% for tag in page.tags %} <a>{{ tag }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}</p>
 		</small>

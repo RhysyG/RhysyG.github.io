@@ -3,6 +3,9 @@ layout: post
 title: "Betting Club"
 date: 2016-05-23 10:30:00
 author: Rhys Gregory
+role: collaborated
+company: Artisan Digital
+companyURL: http://artisandd.com.au
 categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: betting-club__thumb.jpg
@@ -10,6 +13,8 @@ imageHero: betting-club__hero.jpg
 images: [betting-club__alt-1.png, betting-club__alt-2.png]
 ---
 This will be a brief, opening summary of the Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+
+<a class="o-btn  c-btn" href="betting.club" target="_blank">Visit The Site</a>
 
 ### The Brief
 This will be the Project Brief. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
@@ -24,6 +29,3 @@ The final product. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viva
 
 - Item 1
 - Item 2
-
-### The Success
-Post Build Success Stories if any

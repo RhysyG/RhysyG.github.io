@@ -3,6 +3,8 @@ layout: post
 title: "Sport Champs"
 date: 2016-06-01 10:30:00
 author: Rhys Gregory
+company: Artisan Digital
+companyURL: http://artisandd.com.au
 categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: sports-champs__thumb.jpg

@@ -3,6 +3,8 @@ layout: post
 title: "Race Video"
 date: 2016-03-25 10:30:00
 author: Rhys Gregory
+company: Artisan Digital
+companyURL: http://artisandd.com.au
 categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: race-video__thumb.jpg

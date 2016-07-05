@@ -3,6 +3,8 @@ layout: post
 title: "EQ Pay"
 date: 2014-04-09 10:30:00
 author: Rhys Gregory
+company: Artisan Digital
+companyURL: http://artisandd.com.au
 categories: portfolio
 tags: [logo design, brand identity]
 imageThumb: eq-pay__thumb.jpg

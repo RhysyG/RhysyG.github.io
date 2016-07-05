@@ -3,6 +3,8 @@ layout: post
 title: "Best Odds"
 date: 2015-09-17 11:30:00
 author: Rhys Gregory
+company: Artisan Digital
+companyURL: http://artisandd.com.au
 categories: portfolio
 tags: [banner advertising]
 imageThumb: best-odds__thumb.jpg
