@@ -5,7 +5,7 @@ permalink: /about/
 imageHero: about-hero.jpg
 ---
 ---
-Hey! I am Rhys, an Australian based app designer with ten years’ worth of industry experience. I specialise in **UI Design**, **UX Design** and **Web Front End Development**. Additionally, I have great experience in **graphic design**, **brand identity** and **animation**. My client roster consists of big scale applications that have involved the latest web technologies.
+Hey! I'm Rhys, an Australian based app designer with ten years’ worth of industry experience. I specialise in **UI Design**, **UX Design** and **Web Front End Development**. Additionally, I have great experience in **graphic design**, **brand identity** and **animation**. My client roster consists of big scale applications that have involved the latest web technologies.
 
 # Girls like guys with Skills
 ---
@@ -91,7 +91,7 @@ Hey! I am Rhys, an Australian based app designer with ten years’ worth of indu
 # Social Pipes
 ---
 
-I am currently working full time but please feel free to say hey or enquire about a **small project** or **consultancy**. Whether it be *life style, financial, governement, e-commerce, health or sport*, I love working on a variety of projects, so please **get in touch!**
+I am currently working full time but please feel free to *say hey* or enquire about a **small project** or **consultancy**. Whether it be *life style, financial, governement, e-commerce, health or sport*, I love working on a variety of projects, so please **get in touch!**
 
 <a class="o-btn  c-btn  u-mb" href="mailto:rhys.m.gregory@gmail.com">Email Me</a>
 
