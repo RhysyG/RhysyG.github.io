@@ -19,7 +19,6 @@ $media-gutter--huge:     quadruple($media-gutter) !default;
 %#{$objects-namespace}media {
 	display: flex;
 	flex-flow: row nowrap;
-	width: 100%;
 	margin-left: -$media-gutter;
 	padding: 0;
 }
