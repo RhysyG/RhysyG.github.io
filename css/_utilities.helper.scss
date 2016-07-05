@@ -28,3 +28,11 @@
 .#{$utilities-namespace}caps{
 	text-transform:uppercase!important;
 }
+
+/**
+ * Linka
+ */
+
+ .#{$utilities-namespace}link-img{
+	display:inline-block;
+}
