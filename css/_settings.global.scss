@@ -6,4 +6,9 @@ $brand-color:   #303F9F;
 $brand-round:   3px;
 $base-round:    $brand-round;
 
-// Variable names: brand, base, color ??
+/**
+ * Font Sizes
+ */
+$heading-size-giga: 96px!default;
+$heading-size-mega: 72px!default;
+$heading-size-kilo: 48px!default;

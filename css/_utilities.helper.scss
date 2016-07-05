@@ -6,5 +6,25 @@
  * Font alignments
  */
 .#{$utilities-namespace}text-center {
-	text-align: center;
+	text-align: center!important;
+}
+
+/**
+ * Font Sizes
+ */
+.#{$utilities-namespace}giga{
+	@include inuit-font-size($heading-size-giga);
+}
+.#{$utilities-namespace}mega{
+	@include inuit-font-size($heading-size-mega);
+}
+.#{$utilities-namespace}kilo{
+	@include inuit-font-size($heading-size-kilo);
+}
+
+/**
+ * Font Variations
+ */
+.#{$utilities-namespace}caps{
+	text-transform:uppercase!important;
 }
