@@ -11,21 +11,24 @@ imageThumb: pick-champs__thumb.jpg
 imageHero: pick-champs__hero.jpg
 images: [pick-champs__alt-1.png, pick-champs__alt-2.png]
 ---
-This will be a brief, opening summary of the Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+PickChamps is a completely new, simple and fun way to play Daily Fantasy Sports. Accumulate points by making customized statistical predictions (picks) on real athletes. Earn more points than your competitors to climb your way up the leaderboard and win real cash!
+
+<a class="o-btn  c-btn" href="pickchamps.com" target="_blank">Visit The Site</a>
 
 ### The Brief
-This will be the Project Brief. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+PickChamps approached us to create a Daily Fantasy Sports Product with a difference. If you’re not familiar with Fantasy Sports, it’s a build your own fantasy team from a sporting code, earn points based on an athlete’s performance, climb your way to the top of the leaderboard, and win real cash. PickChamps wanted to create a similar experience but with no salary caps, customized statistical predictions (picks) instead of overall performance, and head to head battles for athletes.
+
+The key to the success of PickChamps was the Pick Builder. We had to create a fully customizable user interface where a user could easily play around with stats, players, and pick odds.
 
 ### The Solution
-This will be the acheivements and major mile stones which could include, ux, design, turn around time. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+We decided to tackle the Pick Builder by identifying what we thought would be the most common user actions.
 
-### The Product
-The final product. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+1. **Building the Pick.** As a first to market product we made sure to use clear labels with icons and have the statistical options appear in sequential order.
 
-#### Keys Features
+2. **Pick Tweaking.** We identified that after users finish the initial pick, they would most likely want to tweak the options quickly and easily to find the right odds.
 
-- Item 1
-- Item 2
+3. **Confirmation.** Simply but importantly, we made sure to repeat the Pick to the user in plain ol’ english.
 
-### The Success
-Post Build Success Stories if any
+Taking in all of points above, we decided to use a single screen user interface approach to minimise back and forth clicks, and maximise the enormous flexibility of pick combinations.
+
+Some of the others features included; Leaderboard “find me”. To speed up finding who is around you, how many points you need to beat your opponents, and how far off winning prize money by taking you to your personal position on the leaderboard. Quick Picks. Quick Picks were created for users who didn’t have a pick in mind or have time to create one. Using this feature allows you to choose from a list of randomised completed picks which you can put on in 3 clicks.

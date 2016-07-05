@@ -9,21 +9,10 @@ imageThumb: smf-building__thumb.jpg
 imageHero: smf-building__hero.jpg
 images: [smf-building__alt-1.png, smf-building__alt-2.png]
 ---
-This will be a brief, opening summary of the Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+SMF Building and Construction are **quality registered builders** for new homes and renovations..
 
 ### The Brief
-This will be the Project Brief. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+SMF Building required a **new logo** and **brand identity** for their new company They are all about professionalism, quality and trust.
 
 ### The Solution
-This will be the acheivements and major mile stones which could include, ux, design, turn around time. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
-
-### The Product
-The final product. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
-
-#### Keys Features
-
-- Item 1
-- Item 2
-
-### The Success
-Post Build Success Stories if any
+The final version of the logo consisted of a simplistic, professional font “Proxima Nova” where the “M” from “SMF” had a little **play on words with house imagery.** Blue was used as the brand color which always has good associations to brands that are **trusting, calm, confident and safe.**

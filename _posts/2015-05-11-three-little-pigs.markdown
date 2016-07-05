@@ -9,21 +9,20 @@ imageThumb: 3-little-pigs__thumb.jpg
 imageHero: 3-little-pigs__hero.jpg
 images: [3-little-pigs__alt-1.png, 3-little-pigs__alt-2.png, 3-little-pigs__alt-3.png]
 ---
-This will be a brief, opening summary of the Project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+From Kitchens to Bathrooms, 3 Little Pigs **sell beautiful, modern products** to Australian homes.
+
+<a class="o-btn  c-btn" href="http://3littlepigs.net.au" target="_blank">Visit The Site</a>
 
 ### The Brief
-This will be the Project Brief. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+3 Little Pigs came into contact to build **website sales** and **brand identity**. A new responsive website was to be created with an easier purchasing user experience, and a new logo design which expressed greater trust and reliability.
 
 ### The Solution
-This will be the acheivements and major mile stones which could include, ux, design, turn around time. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
 
-### The Product
-The final product. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus augue tellus, placerat vitae lobortis eu, iaculis non leo. Nunc iaculis leo vel dui pharetra tincidunt.
+#### Website
+Our first priority was to ensure the new website build was **responsive** from mobile to desktop. Next was the choice of an E-Commerce platform. Shopify, WooCommerce and Magneto were explored and **WooCommerce** was chosen for the main benefit of price.
 
-#### Keys Features
+On top of a traditional E-Commerce website, Account **Wishlists** and **One Click Add to Basket** functionality were added to aid the user experience.
 
-- Item 1
-- Item 2
+#### Logo
 
-### The Success
-Post Build Success Stories if any
+3 Little Pigs wanted a new brand identity of **modern, trusting and of good quality.** The current logo expressed more of a discount/bargin type brand, a “Crazy John’s” so to speak. We used modern fonts and colors and tied in a little fun with the pig's tail to keep the brand from being too luxury.
