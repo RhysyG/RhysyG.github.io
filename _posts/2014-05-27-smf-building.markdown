@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SMF Building"
-date: 2014-05-27 14:30:00
+date: 2014-04-09 10:30:00
 author: Rhys Gregory
 categories: portfolio
 tags: [logo design, brand identity, business card]

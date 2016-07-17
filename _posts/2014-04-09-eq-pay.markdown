@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "EQ Pay"
-date: 2014-04-09 10:30:00
+date: 2014-05-27 14:30:00
 author: Rhys Gregory
 company: Artisan Digital
 companyURL: http://artisandd.com.au
