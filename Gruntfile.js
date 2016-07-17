@@ -51,7 +51,10 @@ module.exports = function (grunt) {
         // Squash jQuery into one minified file
         uglify: {
         	build: {
-        		src: ['js/main.js', 'js/site-nav.js' ],
+        		src: [
+                'js/_mousewheelStopPropagation.js',
+                'js/_site-nav.js'
+                ],
         		dest: '_site/js/main.min.js'
         	}
         },
