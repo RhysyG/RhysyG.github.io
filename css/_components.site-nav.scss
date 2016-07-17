@@ -17,14 +17,3 @@
 		text-decoration: none;
 	}
 }
-
-.#{$components-namespace}site-nav__list {
-	display:none;
-	position: fixed;
-	top: 62px;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index:1;
-	background: white;
-}

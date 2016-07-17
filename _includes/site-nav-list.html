@@ -1,0 +1,18 @@
+<div class="c-site-nav-list  js-site-nav">
+	<div class="c-site-nav-list__content" id="js-site-nav-list">
+		<ul class="o-nav  o-nav--stacked  o-nav--block">
+			{% assign url = page.url|remove:'index.html' %}
+			{% for link in site.navigation %}
+			<li class="o-nav__item"><a href="{{link.url}}" title="{{link.title}}" class="o-nav__link  c-nav__link  {% if url == link.url %}is-active{% endif %}">{{link.text}}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function(event) { 
+
+		$('#js-site-nav-list').mousewheelStopPropagation();
+
+	});
+</script>

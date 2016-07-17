@@ -121,7 +121,8 @@ $inuit-enable-list-ui--tiny: true;
 @import "components.buttons";
 @import "components.page-head";
 @import "components.site-nav";
-@import "components.site-desktop-nav";
+@import "components.site-nav-list";
+@import "components.site-nav-desk";
 @import "components.site-logo";
 @import "components.nav";
 @import "components.tabs";
@@ -153,4 +154,4 @@ $inuit-enable-paddings--large:true;
 @import "bower_components/inuit-spacing/trumps.spacing";
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
 @import "bower_components/inuit-clearfix/trumps.clearfix";
-@import "bower_components/nudgecss/trumps.nudge"; // Delete for Production
+//@import "bower_components/nudgecss/trumps.nudge"; // Delete for Production

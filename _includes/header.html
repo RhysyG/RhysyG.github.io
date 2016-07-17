@@ -1,19 +1,20 @@
 <header class="c-page-head">
 	<div class="o-wrapper  o-wrapper--narrow  clearfix">
-		<div class="c-site-logo"><a href="/">Logo</a></div>
-		<div class="c-site-nav  js-site-nav-btn"><a class="c-site-nav__link">≡</a></div>
-		<div class="c-site-nav__list  js-site-nav">
-			<ul class="o-nav  o-nav--stacked  o-nav--block">
-				{% assign url = page.url|remove:'index.html' %}
-				{% for link in site.navigation %}
-				<li class="o-nav__item"><a href="{{link.url}}" title="{{link.title}}" class="o-nav__link  c-nav__link  {% if url == link.url %}is-active{% endif %}">{{link.text}}</a></li>
-				{% endfor %}
-			</ul>
+		<div class="c-site-logo">
+			<a class="c-site-logo__link" href="/">
+				<img class="u-mr-" src="/img/rg-logo__brand-mark.svg" height="25" alt="Rhys Gregory">
+				<img src="/img/rg-logo__word-mark.svg" height="25" alt="Rhys Gregory">
+			</a>
 		</div>
-		
-		<ul class="c-site-desktop-nav  o-nav  c-tabs">
+		<div class="c-site-nav  js-site-nav-btn">
+			<a class="c-site-nav__link">≡</a>
+		</div>
+		<ul class="c-site-nav-desk  o-nav  c-tabs">
+			{% assign url = page.url|remove:'index.html' %}
 			{% for link in site.navigation %}
-			<li class="o-nav__item"><a href="{{link.url}}" title="{{link.title}}" class="o-nav__link  c-tabs__link  {% if url == link.url %}is-active{% endif %}">{{link.text}}</a></li>
+			<li class="c-site-nav-desk__item  o-nav__item">
+				<a href="{{link.url}}" title="{{link.title}}" class="c-site-nav-desk__link  o-nav__link  c-tabs__link  {% if url == link.url %}is-active{% endif %}">{{link.text}}</a>
+			</li>
 			{% endfor %}
 		</ul>
 	</div>

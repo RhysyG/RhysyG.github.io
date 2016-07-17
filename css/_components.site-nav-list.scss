@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    #SITE-NAV-COVER
+\*------------------------------------*/
+
+.#{$components-namespace}site-nav-list {
+	display:none;
+	position: fixed;
+	top: 60px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index:1;
+	background: white;
+}
+
+.#{$components-namespace}site-nav-list__content {
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y:scroll;
+}

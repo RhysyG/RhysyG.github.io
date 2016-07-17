@@ -6,3 +6,10 @@
 	float:left;
 	line-height:60px;
 }
+
+.#{$components-namespace}site-logo__link {
+	display:inline-block;
+	&:hover {
+		text-decoration: none;
+	}
+}

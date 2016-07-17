@@ -1,0 +1,16 @@
+/*------------------------------------*\
+    #SITE-NAV-DESK
+\*------------------------------------*/
+
+.#{$components-namespace}site-nav-desk {
+	display:none;
+	@include media-query(lap-and-up) {
+		display:flex;
+		float:right;
+	}
+}
+
+.#{$components-namespace}site-nav-desk__link {
+	display:inline-block;
+	line-height:60px;
+}
