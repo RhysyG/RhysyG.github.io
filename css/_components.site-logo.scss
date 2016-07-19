@@ -13,3 +13,10 @@
 		text-decoration: none;
 	}
 }
+
+.#{$components-namespace}site-logo__desk {
+	display:none;
+	@include media-query(lap-and-up) {
+		display:inline-block;
+	}
+}
