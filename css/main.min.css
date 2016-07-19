@@ -1,0 +1,2698 @@
+@charset "UTF-8";
+/*------------------------------------*    #RHYS GREGORY PORTFOLIO
+\*------------------------------------*/
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Default..............inuitcss’ default settings.
+ * Global...............Globally-available variables and settings/config.
+ * Colors...............Manage our color palette in isolation.
+ * Responsive...........inuitcss’ set up and name our breakpoints.
+ *
+ * TOOLS
+ * Functions............inuitcss’ default functions.
+ * Mixins...............inuitcss’ default mixins.
+ * Mixins...............Our default mixins.
+ * Namespaces...........Our namespaces.
+ * Widths...............inuitcss’ width tools.
+ * Responsive...........inuitcss’ responsive tooling (requires responsive settings).
+ * Aliases..............Aliases onto longer inuitcss variables and mixins.
+ *
+ * GENERIC
+ * Normalize.css........inuitcss’ A level playing field.
+ * Reset................inuitcss’ A pared back reset to remove margins.
+ * Box-sizing...........inuitcss’ Better default `box-sizing`.
+ * Shared...............inuitcss’ Sensibly and tersely share global commonalities.
+ *
+ * BASE
+ * Page.................inuitcss’ page-level styles (HTML element).
+ * Page.................Our page-level styles (HTML element).
+ * Headings.............inuitcss’ heading styles
+ * Type.................Misc type styles
+ * Links................Our Hyperlink styles
+ * Images...............inuitcss’ images
+ *
+ * OBJECTS
+ * Buttons..............inuitcss’ buttons module.
+ * Layout...............inuitcss’ layout tool.
+
+ * COMPONENTS
+ * Buttons..............Extension of inuitcss’ buttons.
+ * Portfolio............Portfolio items on homepage.
+ *
+ * TRUMPS
+ * Widths...............inuitcss’ Simple width helper classes.
+ * Spacing..............inuitcss’ Micro-level spacing.
+ * Spacing-Responsive...inuitcss’ Responsive spacing.
+*/
+/**
+ * #SETTINGS
+ */
+/*!
+ * inuitcss, by @csswizardry
+ *
+ * github.com/inuitcss | inuitcss.com
+ */
+/**
+ * Font Sizes
+ */
+/**
+ * #TOOLS
+ */
+/*------------------------------------*    #ALIASES
+\*------------------------------------*/
+/**
+ * #GENERIC
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*------------------------------------*    #RESET
+\*------------------------------------*/
+/**
+ * As well as using normalize.css, it is often advantageous to remove all
+ * margins from certain elements.
+ */
+body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+figure,
+table, th, td, caption,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Give a help cursor to elements that give extra info on `:hover`.
+ */
+abbr[title],
+dfn[title] {
+  cursor: help;
+}
+
+/**
+ * Remove underlines from potentially troublesome elements.
+ */
+u,
+ins {
+  text-decoration: none;
+}
+
+/**
+ * Apply faux underlines to inserted text via `border-bottom`.
+ */
+ins {
+  border-bottom: 1px solid;
+}
+
+/*------------------------------------*    #BOX-SIZING
+\*------------------------------------*/
+/**
+ * Set the global `box-sizing` state to `border-box`.
+ *
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ * paulirish.com/2012/box-sizing-border-box-ftw
+ */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*------------------------------------*    #SHARED
+\*------------------------------------*/
+/**
+ * Where `margin-bottom` is concerned,this value will be the same as the
+ * base line-height. This allows us to keep a consistent vertical rhythm.
+ * As per: csswizardry.com/2012/06/single-direction-margin-declarations
+ */
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+blockquote, p, address,
+hr,
+table,
+fieldset, figure,
+pre {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+
+/**
+ * Where `margin-left` is concerned we want to try and indent certain elements
+ * by a consistent amount. Define that amount once,here.
+ */
+ul, ol, dd {
+  margin-left: 48px;
+  margin-left: 3rem;
+}
+
+/**
+ * #BASE
+ */
+/*------------------------------------*    #PAGE
+\*------------------------------------*/
+/**
+ * High-, page-level styling.
+ *
+ * 1. Set the default `font-size` and `line-height` for the entire project,
+ *    sourced from our default variables. The `font-size` is calculated to exist
+ *    in ems, the `line-height` is calculated to exist unitlessly.
+ * 2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ *    navigating between pages that do/do not have enough content to produce
+ *    scrollbars naturally.
+ * 3. Ensure the page always fills at least the entire height of the viewport.
+ * 4. Prevent certain mobile browsers from automatically zooming fonts.
+ * 5. Fonts on OSX will look more consistent with other systems that do not
+ *    render text using sub-pixel anti-aliasing.
+ */
+html {
+  font-size: 1em;
+  /* [1] */
+  line-height: 1.5;
+  /* [1] */
+  background-color: white;
+  color: #333;
+  overflow-y: scroll;
+  /* [2] */
+  min-height: 100%;
+  /* [3] */
+  -webkit-text-size-adjust: 100%;
+  /* [4] */
+  -ms-text-size-adjust: 100%;
+  /* [4] */
+  -moz-osx-font-smoothing: grayscale;
+  /* [5] */
+  -webkit-font-smoothing: antialiased;
+  /* [5] */
+}
+
+/*------------------------------------*    #PAGE
+\*------------------------------------*/
+html {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  min-width: 320px;
+}
+
+/*------------------------------------*    #HEADINGS
+\*------------------------------------*/
+/**
+ * Headings 1–6.
+ */
+h1 {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 1.3333333333;
+}
+
+h2 {
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 1.6;
+}
+
+h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+h4 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.7142857143;
+}
+
+/*------------------------------------*    #TYPE
+\*------------------------------------*/
+/**
+ * Typographical base selectors.
+ */
+/**
+ * Headings 1–6.
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  color: #303F9F;
+}
+
+/**
+ * Horizontal rules.
+ */
+hr {
+  border: none;
+  border-bottom: 1px solid #999;
+  margin-bottom: 23px;
+}
+
+/**
+ * Emboldened elements.
+ */
+a, strong, b, dt {
+  font-weight: 600;
+}
+
+/*------------------------------------*	#LINKS
+\*------------------------------------*/
+a {
+  text-decoration: none;
+  color: #303F9F;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: underline;
+}
+
+/*------------------------------------*    #IMAGES
+\*------------------------------------*/
+/**
+ * 1. Fluid images for responsive purposes.
+ * 2. Offset `alt` text from surrounding copy.
+ * 3. Setting `vertical-align` removes the whitespace that appears under `img`
+ *    elements when they are dropped into a page as-is. Safer alternative to
+ *    using `display: block;`.
+ */
+img {
+  max-width: 100%;
+  /* [1] */
+  font-style: italic;
+  /* [2] */
+  vertical-align: middle;
+  /* [3] */
+}
+
+/**
+ * 1. Google Maps breaks if `max-width: 100%` acts upon it; use their selector
+ *    to remove the effects.
+ * 2. If a `width` and/or `height` attribute have been explicitly defined, let’s
+ *    not make the image fluid.
+ */
+.gm-style img,
+img[width],
+img[height] {
+  /* [2] */
+  max-width: none;
+}
+
+/**
+ * #OBJECTS
+ */
+/*------------------------------------*    #BUTTONS
+\*------------------------------------*/
+/**
+ * A simple button object.
+ */
+/**
+ * 1. Allow us to style box model properties.
+ * 2. Line different sized buttons up a little nicer.
+ * 3. Make buttons inherit font styles (often necessary when styling `input`s as
+ *    buttons).
+ * 4. Reset/normalize some styles.
+ * 5. Force all button-styled elements to appear clickable.
+ * 6. Fixes odd inner spacing in IE7.
+ * 7. Subtract the border size from the padding value so that buttons do not
+ *    grow larger as we add borders.
+ */
+.o-btn {
+  display: inline-block;
+  /* [1] */
+  vertical-align: middle;
+  /* [2] */
+  font: inherit;
+  /* [3] */
+  text-align: center;
+  /* [4] */
+  margin: 0;
+  /* [4] */
+  cursor: pointer;
+  /* [5] */
+  overflow: visible;
+  /* [6] */
+  padding: 11px 23px;
+  /* [7] */
+  background-color: #303F9F;
+  border: 1px solid #303F9F;
+  border-radius: 3px;
+}
+
+.o-btn, .o-btn:hover, .o-btn:active, .o-btn:focus {
+  text-decoration: none;
+  /* [4] */
+  color: #fff;
+}
+
+/**
+ * Fix a Firefox bug whereby `input type="submit"` gains 2px extra padding.
+ */
+.o-btn::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+     * Small buttons.
+     */
+.o-btn--small {
+  padding: 5px 11px;
+  /* [7] */
+}
+
+/**
+     * Large buttons.
+     */
+.o-btn--large {
+  padding: 23px 47px;
+  /* [7] */
+}
+
+/**
+     * Full-width buttons.
+     */
+.o-btn--full {
+  width: 100%;
+}
+
+/**
+     * Round-ended buttons.
+     *
+     * 1. Overly-large value to ensure the radius rounds the whole end of the
+     *    button.
+     */
+.o-btn--pill {
+  border-radius: 100px;
+  /* [1] */
+}
+
+/*------------------------------------*    #BOX
+\*------------------------------------*/
+/**
+ * The box object simply boxes off content.
+ */
+/**
+ * 1. So we can apply the `.box` class to naturally-inline elements.
+ */
+.o-box {
+  display: block;
+  /* [1] */
+  padding: 24px;
+}
+
+.o-box > :last-child {
+  margin-bottom: 0;
+}
+
+/*------------------------------------*	#LAYOUT
+\*------------------------------------*/
+/**
+ * A flexible abstraction for Grids in Flexbox
+ */
+/**
+ * Begin a layout group.
+ */
+.o-layout {
+  list-style: none;
+  margin: 0;
+  margin-left: -24px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+
+/**
+ * 1. Nudge Mixin to alert for improper use.
+ * 2. Full-width unless told to behave otherwise (Mobile First).
+ */
+.o-layout__item {
+  /**
+     * Immediately apply error states to all instances of the element…
+     *
+     * 1. Double up the selector’s specificity so that nothing in the Trumps
+     *    layer accidentally overrides it (namely our check for single
+     *    underscores).
+     */
+  /**
+     * …but remove the errors if things are nested correctly.
+     */
+  /* [1] */
+  padding-left: 24px;
+  width: 100%;
+  /* [2] */
+}
+
+.o-layout__item.o-layout__item {
+  /* [1] */
+  position: relative;
+  outline: 1px solid red;
+}
+
+.o-layout__item.o-layout__item:after {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  font: normal 12px/1 monospace;
+  white-space: nowrap;
+  padding: 2px;
+  background-color: white;
+  color: red;
+}
+
+.o-layout__item.o-layout__item:after {
+  content: "ERROR: Element `." attr(class) "` should only appear within `.o-layout`.";
+}
+
+.o-layout .o-layout__item {
+  outline: none;
+}
+
+.o-layout .o-layout__item:after {
+  content: normal;
+}
+
+/**
+ * Item modifiers
+ */
+.o-layout__item--full {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.o-layout__item--right {
+  margin-left: auto;
+}
+
+/**
+ * Space modifiers.
+ */
+.o-layout--small {
+  margin-left: 12px;
+}
+
+.o-layout--small > .o-layout__item {
+  padding-left: 12px;
+}
+
+.o-layout--large {
+  margin-left: 48px;
+}
+
+.o-layout--large > .o-layout__item {
+  padding-left: 48px;
+}
+
+.o-layout--flush {
+  margin-left: 0;
+}
+
+.o-layout--flush > .o-layout__item {
+  padding-left: 0;
+}
+
+/**
+ * Vertical alignemnt modifiers.
+ */
+.o-layout--middle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.o-layout--bottom {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/**
+ * Horizontal alignemnt modifiers.
+ */
+.o-layout--center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.o-layout--right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.o-layout--left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.o-layout--fit {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*------------------------------------*	#MEDIA
+\*------------------------------------*/
+/**
+ * A flexible abstraction for the Media design pattern in Flexbox.
+ */
+/**
+ * Begin a media block.
+ * 1. Display as flex
+ * 2. Set flex to row (horizontal) and no wrapping
+ * 3. Negative margin container so first item padding is cancelled out and flush.
+ */
+.o-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* [1] */
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+  /* [2] */
+  margin-left: -24px;
+  /* [3] */
+}
+
+/**
+ * 1. Default padding for items and body
+ * 2. Nudge Mixin to alert for improper use. (not part of core)
+ */
+.o-media__item,
+.o-media__body {
+  padding-left: 24px;
+  /* [1] */
+  /**
+     * Immediately apply error states to all instances of the element…
+     *
+     * 1. Double up the selector’s specificity so that nothing in the Trumps
+     *    layer accidentally overrides it (namely our check for single
+     *    underscores).
+     */
+  /**
+     * …but remove the errors if things are nested correctly.
+     */
+  /* [2] */
+}
+
+.o-media__item.o-media__item, .o-media__item .o-media__body,
+.o-media__body.o-media__item,
+.o-media__body .o-media__body {
+  /* [1] */
+  position: relative;
+  outline: 1px solid red;
+}
+
+.o-media__item.o-media__item:after, .o-media__item .o-media__body:after,
+.o-media__body.o-media__item:after,
+.o-media__body .o-media__body:after {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  font: normal 12px/1 monospace;
+  white-space: nowrap;
+  padding: 2px;
+  background-color: white;
+  color: red;
+}
+
+.o-media__item.o-media__item:after, .o-media__item .o-media__body:after,
+.o-media__body.o-media__item:after,
+.o-media__body .o-media__body:after {
+  content: "ERROR: Element `." attr(class) "` should only appear within `.o-media`.";
+}
+
+.o-media .o-media__item, .o-media
+.o-media__body {
+  outline: none;
+}
+
+.o-media .o-media__item:after, .o-media
+.o-media__body:after {
+  content: normal;
+}
+
+/**
+ * 1. Set body to fill remaining space of parent.
+ */
+.o-media__body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  /* [1] */
+}
+
+/**
+ * Item modifiers
+ */
+.o-media__item--right {
+  margin-left: auto;
+  /* [1] */
+}
+
+.o-media__item--left {
+  margin-right: auto;
+  /* [1] */
+}
+
+/**
+ * Space modifiers.
+ */
+.o-media--small {
+  margin-left: 12px;
+}
+
+.o-media--small > .o-media__item {
+  padding-left: 12px;
+}
+
+.o-media--large {
+  margin-left: 48px;
+}
+
+.o-media--large > .o-media__item {
+  padding-left: 48px;
+}
+
+.o-media--flush {
+  margin-left: 0;
+}
+
+.o-media--flush > .o-media__item {
+  padding-left: 0;
+}
+
+/**
+ * Vertical alignemnt modifiers.
+ */
+.o-media--middle {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.o-media--bottom {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+/**
+ * Horizontal alignemnt modifiers.
+ */
+.o-media--center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.o-media--right {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.o-media--left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.o-media--fit {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*------------------------------------*    #WRAPPERS
+\*------------------------------------*/
+.o-wrapper {
+  padding: 0 12px 0 12px;
+}
+
+@media screen and (min-width: 45em) {
+  .o-wrapper {
+    padding: 0 24px 0 24px;
+  }
+}
+
+.o-wrapper--narrow {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.o-wrapper--narrower {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*------------------------------------*	#BANDS
+\*------------------------------------*/
+/**
+*
+ * Used for big divisions of content. Use component Band for colours.
+ */
+.o-band {
+  padding: 24px 24px;
+}
+
+@media screen and (min-width: 45em) {
+  .o-band {
+    padding: 48px 48px;
+  }
+}
+
+/*------------------------------------*    $NAV
+\*------------------------------------*/
+/**
+ * Base Nav styles
+ */
+.o-nav {
+  list-style: none;
+  margin: 0;
+  margin-left: -24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+
+.o-nav__item {
+  padding-left: 24px;
+}
+
+.o-nav__link {
+  display: block;
+}
+
+.o-nav__link:focus {
+  outline: 0;
+  text-decoration: none;
+}
+
+.o-nav__link:hover {
+  text-decoration: none;
+}
+
+/**
+ * Direction modifiers
+ */
+.o-nav--stacked {
+  margin-left: 0;
+  -ms-flex-flow: column  wrap;
+      flex-flow: column  wrap;
+}
+
+.o-nav--stacked > .o-nav__item {
+  padding-left: 0;
+}
+
+/**
+ * Block modifier for chunky button hit areas
+ */
+.o-nav--block > .o-nav__item > .o-nav__link {
+  padding: 24px;
+}
+
+/**
+ * Fit modifier
+ */
+.o-nav--fit > .o-nav__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/*------------------------------------*    #LIST-UI
+\*------------------------------------*/
+/**
+ * The UI list object creates blocky list items with a keyline separator out of
+ * a `ul` or `ol`.
+ */
+.o-list-ui,
+.o-list-ui__item,
+.o-list-ui > li {
+  border: 0 solid #ababab;
+}
+
+.o-list-ui {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top-width: 1px;
+}
+
+.o-list-ui__item,
+.o-list-ui > li {
+  padding: 24px;
+  border-bottom-width: 1px;
+}
+
+/**
+     * Tiny list-uis.
+     */
+.o-list-ui--tiny > .o-list-ui__item,
+.o-list-ui.o-list-ui--tiny > li {
+  padding: 6px;
+}
+
+/**
+     * Small list-uis.
+     */
+.o-list-ui--small > .o-list-ui__item,
+.o-list-ui.o-list-ui--small > li {
+  padding: 12px;
+}
+
+/**
+     * Large list-uis.
+     */
+.o-list-ui--large > .o-list-ui__item,
+.o-list-ui.o-list-ui--large > li {
+  padding: 48px;
+}
+
+/**
+ * #COMPONENTS
+ */
+/*------------------------------------*    #BUTTONS
+\*------------------------------------*/
+.btn {
+  font-weight: 600;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  background-color: #242f78;
+  border-color: #242f78;
+}
+
+.btn--secondary {
+  background: none;
+  color: #303F9F;
+}
+
+.btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus {
+  background: none;
+  color: #242f78;
+}
+
+.btn--positive {
+  font-weight: 300;
+}
+
+.btn--positive, .btn--positive:hover, .btn--positive:active, .btn--positive:focus {
+  background-color: #30C67D;
+  border-color: #30C67D;
+}
+
+/*------------------------------------*    #PAGE-HEAD
+\*------------------------------------*/
+.c-page-head {
+  position: relative;
+  height: 60px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+  z-index: 2;
+}
+
+/*------------------------------------*    #SITE-MOBILE-NAV
+\*------------------------------------*/
+.c-site-nav {
+  float: right;
+}
+
+@media screen and (min-width: 45em) {
+  .c-site-nav {
+    display: none;
+  }
+}
+
+.c-site-nav__link {
+  display: block;
+  padding: 18px 24px;
+  cursor: pointer;
+}
+
+.c-site-nav__link:hover {
+  text-decoration: none;
+}
+
+/*------------------------------------*    #SITE-NAV-COVER
+\*------------------------------------*/
+.c-site-nav-list {
+  display: none;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: white;
+}
+
+.c-site-nav-list__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+
+/*------------------------------------*    #SITE-NAV-DESK
+\*------------------------------------*/
+.c-site-nav-desk {
+  display: none;
+}
+
+@media screen and (min-width: 45em) {
+  .c-site-nav-desk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+  }
+}
+
+.c-site-nav-desk__link {
+  display: inline-block;
+  line-height: 60px;
+}
+
+/*------------------------------------*    #SITE-LOGO
+\*------------------------------------*/
+.c-site-logo {
+  float: left;
+  line-height: 60px;
+}
+
+.c-site-logo__link {
+  display: inline-block;
+}
+
+.c-site-logo__link:hover {
+  text-decoration: none;
+}
+
+.c-site-logo__desk {
+  display: none;
+}
+
+@media screen and (min-width: 45em) {
+  .c-site-logo__desk {
+    display: inline-block;
+  }
+}
+
+/*------------------------------------*    #NAV
+\*------------------------------------*/
+.c-nav__link {
+  color: #999;
+  font-weight: 600;
+}
+
+.c-nav__link.is-active {
+  color: #303F9F;
+}
+
+/*------------------------------------*    #TABS
+\*------------------------------------*/
+.c-tabs {
+  -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+}
+
+.c-tabs__link {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #999;
+}
+
+.c-tabs__link:hover {
+  color: gray;
+}
+
+.c-tabs__link.is-active {
+  color: #303F9F;
+}
+
+.c-tabs__link.is-active:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #303F9F;
+}
+
+/*------------------------------------*    #PORTFOLIO
+\*------------------------------------*/
+.c-portfolio__link {
+  display: block;
+  position: relative;
+}
+
+.c-portfolio__link:hover > .c-portfolio__excerpt {
+  display: block;
+}
+
+.c-portfolio__excerpt {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 24px;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/*------------------------------------*    #BANDS
+\*------------------------------------*/
+/**
+*
+ * Used for big divisions of content. Use object Band for space.
+ */
+.c-band {
+  background: #e6e6e6;
+}
+
+/**
+ * #ICONS
+ */
+@font-face {
+  font-family: 'icons';
+  src: url("../fonts/icons.eot?yg93z6");
+  src: url("../fonts/icons.eot?yg93z6#iefix") format("embedded-opentype"), url("../fonts/icons.ttf?yg93z6") format("truetype"), url("../fonts/icons.woff?yg93z6") format("woff"), url("../fonts/icons.svg?yg93z6#icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="i-"], [class*=" i-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.i-menu:before {
+  content: "\e900";
+}
+
+/**
+ * #UTILITIES
+ */
+/*------------------------------------*    $HELPER
+\*------------------------------------*/
+/**
+ * Font alignments
+ */
+.u-text-center {
+  text-align: center !important;
+}
+
+/**
+ * Font Sizes
+ */
+.u-giga {
+  font-size: 96px;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.u-mega {
+  font-size: 72px;
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.u-kilo {
+  font-size: 48px;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+/**
+ * Font Variations
+ */
+.u-caps {
+  text-transform: uppercase !important;
+}
+
+/**
+ * Linka
+ */
+.u-link-img {
+  display: inline-block;
+}
+
+/**
+ * #TRUMPS
+ */
+/*------------------------------------*    #WIDTHS
+\*------------------------------------*/
+/**
+ * A series of width helper classes that you can use to size things like grid
+ * systems. Classes can take a fraction-like format (e.g. `.u-2/3`) or a spoken-
+ * word format (e.g. `.u-2-of-3`). Use these in your markup:
+ *
+ * <div class="u-7/12">
+ */
+.u-1\/1 {
+  width: 100% !important;
+}
+
+.u-1\/2 {
+  width: 50% !important;
+}
+
+.u-1\/3 {
+  width: 33.3333333333% !important;
+}
+
+.u-2\/3 {
+  width: 66.6666666667% !important;
+}
+
+.u-1\/4 {
+  width: 25% !important;
+}
+
+.u-2\/4 {
+  width: 50% !important;
+}
+
+.u-3\/4 {
+  width: 75% !important;
+}
+
+.u-1\/5 {
+  width: 20% !important;
+}
+
+.u-2\/5 {
+  width: 40% !important;
+}
+
+.u-3\/5 {
+  width: 60% !important;
+}
+
+.u-4\/5 {
+  width: 80% !important;
+}
+
+.u-1\/6 {
+  width: 16.6666666667% !important;
+}
+
+.u-2\/6 {
+  width: 33.3333333333% !important;
+}
+
+.u-3\/6 {
+  width: 50% !important;
+}
+
+.u-4\/6 {
+  width: 66.6666666667% !important;
+}
+
+.u-5\/6 {
+  width: 83.3333333333% !important;
+}
+
+/*------------------------------------*    #WIDTHS-RESPONSIVE
+\*------------------------------------*/
+/**
+ * Responsive width classes based on your responsive settings.
+ */
+@media screen and (max-width: 44.9375em) {
+  .u-1\/1-mobile {
+    width: 100% !important;
+  }
+  .u-1\/2-mobile {
+    width: 50% !important;
+  }
+  .u-1\/3-mobile {
+    width: 33.3333333333% !important;
+  }
+  .u-2\/3-mobile {
+    width: 66.6666666667% !important;
+  }
+  .u-1\/4-mobile {
+    width: 25% !important;
+  }
+  .u-2\/4-mobile {
+    width: 50% !important;
+  }
+  .u-3\/4-mobile {
+    width: 75% !important;
+  }
+  .u-1\/5-mobile {
+    width: 20% !important;
+  }
+  .u-2\/5-mobile {
+    width: 40% !important;
+  }
+  .u-3\/5-mobile {
+    width: 60% !important;
+  }
+  .u-4\/5-mobile {
+    width: 80% !important;
+  }
+  .u-1\/6-mobile {
+    width: 16.6666666667% !important;
+  }
+  .u-2\/6-mobile {
+    width: 33.3333333333% !important;
+  }
+  .u-3\/6-mobile {
+    width: 50% !important;
+  }
+  .u-4\/6-mobile {
+    width: 66.6666666667% !important;
+  }
+  .u-5\/6-mobile {
+    width: 83.3333333333% !important;
+  }
+  .u-1\/7-mobile {
+    width: 14.2857142857% !important;
+  }
+  .u-2\/7-mobile {
+    width: 28.5714285714% !important;
+  }
+  .u-3\/7-mobile {
+    width: 42.8571428571% !important;
+  }
+  .u-4\/7-mobile {
+    width: 57.1428571429% !important;
+  }
+  .u-5\/7-mobile {
+    width: 71.4285714286% !important;
+  }
+  .u-6\/7-mobile {
+    width: 85.7142857143% !important;
+  }
+  .u-1\/8-mobile {
+    width: 12.5% !important;
+  }
+  .u-2\/8-mobile {
+    width: 25% !important;
+  }
+  .u-3\/8-mobile {
+    width: 37.5% !important;
+  }
+  .u-4\/8-mobile {
+    width: 50% !important;
+  }
+  .u-5\/8-mobile {
+    width: 62.5% !important;
+  }
+  .u-6\/8-mobile {
+    width: 75% !important;
+  }
+  .u-7\/8-mobile {
+    width: 87.5% !important;
+  }
+}
+
+@media screen and (min-width: 45em) and (max-width: 63.9375em) {
+  .u-1\/1-lap {
+    width: 100% !important;
+  }
+  .u-1\/2-lap {
+    width: 50% !important;
+  }
+  .u-1\/3-lap {
+    width: 33.3333333333% !important;
+  }
+  .u-2\/3-lap {
+    width: 66.6666666667% !important;
+  }
+  .u-1\/4-lap {
+    width: 25% !important;
+  }
+  .u-2\/4-lap {
+    width: 50% !important;
+  }
+  .u-3\/4-lap {
+    width: 75% !important;
+  }
+  .u-1\/5-lap {
+    width: 20% !important;
+  }
+  .u-2\/5-lap {
+    width: 40% !important;
+  }
+  .u-3\/5-lap {
+    width: 60% !important;
+  }
+  .u-4\/5-lap {
+    width: 80% !important;
+  }
+  .u-1\/6-lap {
+    width: 16.6666666667% !important;
+  }
+  .u-2\/6-lap {
+    width: 33.3333333333% !important;
+  }
+  .u-3\/6-lap {
+    width: 50% !important;
+  }
+  .u-4\/6-lap {
+    width: 66.6666666667% !important;
+  }
+  .u-5\/6-lap {
+    width: 83.3333333333% !important;
+  }
+  .u-1\/7-lap {
+    width: 14.2857142857% !important;
+  }
+  .u-2\/7-lap {
+    width: 28.5714285714% !important;
+  }
+  .u-3\/7-lap {
+    width: 42.8571428571% !important;
+  }
+  .u-4\/7-lap {
+    width: 57.1428571429% !important;
+  }
+  .u-5\/7-lap {
+    width: 71.4285714286% !important;
+  }
+  .u-6\/7-lap {
+    width: 85.7142857143% !important;
+  }
+  .u-1\/8-lap {
+    width: 12.5% !important;
+  }
+  .u-2\/8-lap {
+    width: 25% !important;
+  }
+  .u-3\/8-lap {
+    width: 37.5% !important;
+  }
+  .u-4\/8-lap {
+    width: 50% !important;
+  }
+  .u-5\/8-lap {
+    width: 62.5% !important;
+  }
+  .u-6\/8-lap {
+    width: 75% !important;
+  }
+  .u-7\/8-lap {
+    width: 87.5% !important;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .u-1\/1-lap-and-up {
+    width: 100% !important;
+  }
+  .u-1\/2-lap-and-up {
+    width: 50% !important;
+  }
+  .u-1\/3-lap-and-up {
+    width: 33.3333333333% !important;
+  }
+  .u-2\/3-lap-and-up {
+    width: 66.6666666667% !important;
+  }
+  .u-1\/4-lap-and-up {
+    width: 25% !important;
+  }
+  .u-2\/4-lap-and-up {
+    width: 50% !important;
+  }
+  .u-3\/4-lap-and-up {
+    width: 75% !important;
+  }
+  .u-1\/5-lap-and-up {
+    width: 20% !important;
+  }
+  .u-2\/5-lap-and-up {
+    width: 40% !important;
+  }
+  .u-3\/5-lap-and-up {
+    width: 60% !important;
+  }
+  .u-4\/5-lap-and-up {
+    width: 80% !important;
+  }
+  .u-1\/6-lap-and-up {
+    width: 16.6666666667% !important;
+  }
+  .u-2\/6-lap-and-up {
+    width: 33.3333333333% !important;
+  }
+  .u-3\/6-lap-and-up {
+    width: 50% !important;
+  }
+  .u-4\/6-lap-and-up {
+    width: 66.6666666667% !important;
+  }
+  .u-5\/6-lap-and-up {
+    width: 83.3333333333% !important;
+  }
+  .u-1\/7-lap-and-up {
+    width: 14.2857142857% !important;
+  }
+  .u-2\/7-lap-and-up {
+    width: 28.5714285714% !important;
+  }
+  .u-3\/7-lap-and-up {
+    width: 42.8571428571% !important;
+  }
+  .u-4\/7-lap-and-up {
+    width: 57.1428571429% !important;
+  }
+  .u-5\/7-lap-and-up {
+    width: 71.4285714286% !important;
+  }
+  .u-6\/7-lap-and-up {
+    width: 85.7142857143% !important;
+  }
+  .u-1\/8-lap-and-up {
+    width: 12.5% !important;
+  }
+  .u-2\/8-lap-and-up {
+    width: 25% !important;
+  }
+  .u-3\/8-lap-and-up {
+    width: 37.5% !important;
+  }
+  .u-4\/8-lap-and-up {
+    width: 50% !important;
+  }
+  .u-5\/8-lap-and-up {
+    width: 62.5% !important;
+  }
+  .u-6\/8-lap-and-up {
+    width: 75% !important;
+  }
+  .u-7\/8-lap-and-up {
+    width: 87.5% !important;
+  }
+}
+
+@media screen and (max-width: 63.9375em) {
+  .u-1\/1-portable {
+    width: 100% !important;
+  }
+  .u-1\/2-portable {
+    width: 50% !important;
+  }
+  .u-1\/3-portable {
+    width: 33.3333333333% !important;
+  }
+  .u-2\/3-portable {
+    width: 66.6666666667% !important;
+  }
+  .u-1\/4-portable {
+    width: 25% !important;
+  }
+  .u-2\/4-portable {
+    width: 50% !important;
+  }
+  .u-3\/4-portable {
+    width: 75% !important;
+  }
+  .u-1\/5-portable {
+    width: 20% !important;
+  }
+  .u-2\/5-portable {
+    width: 40% !important;
+  }
+  .u-3\/5-portable {
+    width: 60% !important;
+  }
+  .u-4\/5-portable {
+    width: 80% !important;
+  }
+  .u-1\/6-portable {
+    width: 16.6666666667% !important;
+  }
+  .u-2\/6-portable {
+    width: 33.3333333333% !important;
+  }
+  .u-3\/6-portable {
+    width: 50% !important;
+  }
+  .u-4\/6-portable {
+    width: 66.6666666667% !important;
+  }
+  .u-5\/6-portable {
+    width: 83.3333333333% !important;
+  }
+  .u-1\/7-portable {
+    width: 14.2857142857% !important;
+  }
+  .u-2\/7-portable {
+    width: 28.5714285714% !important;
+  }
+  .u-3\/7-portable {
+    width: 42.8571428571% !important;
+  }
+  .u-4\/7-portable {
+    width: 57.1428571429% !important;
+  }
+  .u-5\/7-portable {
+    width: 71.4285714286% !important;
+  }
+  .u-6\/7-portable {
+    width: 85.7142857143% !important;
+  }
+  .u-1\/8-portable {
+    width: 12.5% !important;
+  }
+  .u-2\/8-portable {
+    width: 25% !important;
+  }
+  .u-3\/8-portable {
+    width: 37.5% !important;
+  }
+  .u-4\/8-portable {
+    width: 50% !important;
+  }
+  .u-5\/8-portable {
+    width: 62.5% !important;
+  }
+  .u-6\/8-portable {
+    width: 75% !important;
+  }
+  .u-7\/8-portable {
+    width: 87.5% !important;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .u-1\/1-desk {
+    width: 100% !important;
+  }
+  .u-1\/2-desk {
+    width: 50% !important;
+  }
+  .u-1\/3-desk {
+    width: 33.3333333333% !important;
+  }
+  .u-2\/3-desk {
+    width: 66.6666666667% !important;
+  }
+  .u-1\/4-desk {
+    width: 25% !important;
+  }
+  .u-2\/4-desk {
+    width: 50% !important;
+  }
+  .u-3\/4-desk {
+    width: 75% !important;
+  }
+  .u-1\/5-desk {
+    width: 20% !important;
+  }
+  .u-2\/5-desk {
+    width: 40% !important;
+  }
+  .u-3\/5-desk {
+    width: 60% !important;
+  }
+  .u-4\/5-desk {
+    width: 80% !important;
+  }
+  .u-1\/6-desk {
+    width: 16.6666666667% !important;
+  }
+  .u-2\/6-desk {
+    width: 33.3333333333% !important;
+  }
+  .u-3\/6-desk {
+    width: 50% !important;
+  }
+  .u-4\/6-desk {
+    width: 66.6666666667% !important;
+  }
+  .u-5\/6-desk {
+    width: 83.3333333333% !important;
+  }
+  .u-1\/7-desk {
+    width: 14.2857142857% !important;
+  }
+  .u-2\/7-desk {
+    width: 28.5714285714% !important;
+  }
+  .u-3\/7-desk {
+    width: 42.8571428571% !important;
+  }
+  .u-4\/7-desk {
+    width: 57.1428571429% !important;
+  }
+  .u-5\/7-desk {
+    width: 71.4285714286% !important;
+  }
+  .u-6\/7-desk {
+    width: 85.7142857143% !important;
+  }
+  .u-1\/8-desk {
+    width: 12.5% !important;
+  }
+  .u-2\/8-desk {
+    width: 25% !important;
+  }
+  .u-3\/8-desk {
+    width: 37.5% !important;
+  }
+  .u-4\/8-desk {
+    width: 50% !important;
+  }
+  .u-5\/8-desk {
+    width: 62.5% !important;
+  }
+  .u-6\/8-desk {
+    width: 75% !important;
+  }
+  .u-7\/8-desk {
+    width: 87.5% !important;
+  }
+}
+
+@media screen and (min-width: 90.063em) {
+  .u-1\/1-desk-wide {
+    width: 100% !important;
+  }
+  .u-1\/2-desk-wide {
+    width: 50% !important;
+  }
+  .u-1\/3-desk-wide {
+    width: 33.3333333333% !important;
+  }
+  .u-2\/3-desk-wide {
+    width: 66.6666666667% !important;
+  }
+  .u-1\/4-desk-wide {
+    width: 25% !important;
+  }
+  .u-2\/4-desk-wide {
+    width: 50% !important;
+  }
+  .u-3\/4-desk-wide {
+    width: 75% !important;
+  }
+  .u-1\/5-desk-wide {
+    width: 20% !important;
+  }
+  .u-2\/5-desk-wide {
+    width: 40% !important;
+  }
+  .u-3\/5-desk-wide {
+    width: 60% !important;
+  }
+  .u-4\/5-desk-wide {
+    width: 80% !important;
+  }
+  .u-1\/6-desk-wide {
+    width: 16.6666666667% !important;
+  }
+  .u-2\/6-desk-wide {
+    width: 33.3333333333% !important;
+  }
+  .u-3\/6-desk-wide {
+    width: 50% !important;
+  }
+  .u-4\/6-desk-wide {
+    width: 66.6666666667% !important;
+  }
+  .u-5\/6-desk-wide {
+    width: 83.3333333333% !important;
+  }
+  .u-1\/7-desk-wide {
+    width: 14.2857142857% !important;
+  }
+  .u-2\/7-desk-wide {
+    width: 28.5714285714% !important;
+  }
+  .u-3\/7-desk-wide {
+    width: 42.8571428571% !important;
+  }
+  .u-4\/7-desk-wide {
+    width: 57.1428571429% !important;
+  }
+  .u-5\/7-desk-wide {
+    width: 71.4285714286% !important;
+  }
+  .u-6\/7-desk-wide {
+    width: 85.7142857143% !important;
+  }
+  .u-1\/8-desk-wide {
+    width: 12.5% !important;
+  }
+  .u-2\/8-desk-wide {
+    width: 25% !important;
+  }
+  .u-3\/8-desk-wide {
+    width: 37.5% !important;
+  }
+  .u-4\/8-desk-wide {
+    width: 50% !important;
+  }
+  .u-5\/8-desk-wide {
+    width: 62.5% !important;
+  }
+  .u-6\/8-desk-wide {
+    width: 75% !important;
+  }
+  .u-7\/8-desk-wide {
+    width: 87.5% !important;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .u-1\/1-retina {
+    width: 100% !important;
+  }
+  .u-1\/2-retina {
+    width: 50% !important;
+  }
+  .u-1\/3-retina {
+    width: 33.3333333333% !important;
+  }
+  .u-2\/3-retina {
+    width: 66.6666666667% !important;
+  }
+  .u-1\/4-retina {
+    width: 25% !important;
+  }
+  .u-2\/4-retina {
+    width: 50% !important;
+  }
+  .u-3\/4-retina {
+    width: 75% !important;
+  }
+  .u-1\/5-retina {
+    width: 20% !important;
+  }
+  .u-2\/5-retina {
+    width: 40% !important;
+  }
+  .u-3\/5-retina {
+    width: 60% !important;
+  }
+  .u-4\/5-retina {
+    width: 80% !important;
+  }
+  .u-1\/6-retina {
+    width: 16.6666666667% !important;
+  }
+  .u-2\/6-retina {
+    width: 33.3333333333% !important;
+  }
+  .u-3\/6-retina {
+    width: 50% !important;
+  }
+  .u-4\/6-retina {
+    width: 66.6666666667% !important;
+  }
+  .u-5\/6-retina {
+    width: 83.3333333333% !important;
+  }
+  .u-1\/7-retina {
+    width: 14.2857142857% !important;
+  }
+  .u-2\/7-retina {
+    width: 28.5714285714% !important;
+  }
+  .u-3\/7-retina {
+    width: 42.8571428571% !important;
+  }
+  .u-4\/7-retina {
+    width: 57.1428571429% !important;
+  }
+  .u-5\/7-retina {
+    width: 71.4285714286% !important;
+  }
+  .u-6\/7-retina {
+    width: 85.7142857143% !important;
+  }
+  .u-1\/8-retina {
+    width: 12.5% !important;
+  }
+  .u-2\/8-retina {
+    width: 25% !important;
+  }
+  .u-3\/8-retina {
+    width: 37.5% !important;
+  }
+  .u-4\/8-retina {
+    width: 50% !important;
+  }
+  .u-5\/8-retina {
+    width: 62.5% !important;
+  }
+  .u-6\/8-retina {
+    width: 75% !important;
+  }
+  .u-7\/8-retina {
+    width: 87.5% !important;
+  }
+}
+
+/*------------------------------------*    #HEADINGS
+\*------------------------------------*/
+/**
+ * Headings 1–6’s corresponding Greek-alphabet abstract classes for double-
+ * stranded heading hierarchy: csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css
+ *
+ * Use these helper classes to cause other elements to adopt the styling of the
+ * respective heading, e.g.:
+ *
+   <h2 class="alpha">Lorem ipsum</h2>
+ *
+ */
+.alpha {
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 1.3333333333;
+}
+
+.beta {
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 1.6;
+}
+
+.gamma {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.delta {
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.epsilon {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.zeta {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.7142857143;
+}
+
+/*------------------------------------*    #SPACING
+\*------------------------------------*/
+/**
+ * Margin and padding helper classes. Use these to tweak layout on a micro
+ * level.
+ *
+ * `.(m|p)(t|r|b|l|h|v)(-|+|0) {}` = margin/padding top/right/bottom/left/horizontal/vertical less/more/none
+ */
+/**
+     * Margin helper classes.
+     *
+     * Add margins.
+     */
+.u-m {
+  margin: 24px !important;
+}
+
+.u-mt {
+  margin-top: 24px !important;
+}
+
+.u-mr {
+  margin-right: 24px !important;
+}
+
+.u-mb {
+  margin-bottom: 24px !important;
+}
+
+.u-ml {
+  margin-left: 24px !important;
+}
+
+.u-mh {
+  margin-right: 24px !important;
+  margin-left: 24px !important;
+}
+
+.u-mv {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+/**
+     * Add tiny margins.
+     */
+.u-m-- {
+  margin: 6px !important;
+}
+
+.u-mt-- {
+  margin-top: 6px !important;
+}
+
+.u-mr-- {
+  margin-right: 6px !important;
+}
+
+.u-mb-- {
+  margin-bottom: 6px !important;
+}
+
+.u-ml-- {
+  margin-left: 6px !important;
+}
+
+.u-mh-- {
+  margin-right: 6px !important;
+  margin-left: 6px !important;
+}
+
+.u-mv-- {
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+}
+
+/**
+     * Add small margins.
+     */
+.u-m- {
+  margin: 12px !important;
+}
+
+.u-mt- {
+  margin-top: 12px !important;
+}
+
+.u-mr- {
+  margin-right: 12px !important;
+}
+
+.u-mb- {
+  margin-bottom: 12px !important;
+}
+
+.u-ml- {
+  margin-left: 12px !important;
+}
+
+.u-mh- {
+  margin-right: 12px !important;
+  margin-left: 12px !important;
+}
+
+.u-mv- {
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
+}
+
+/**
+     * Add large margins.
+     */
+.u-m\+ {
+  margin: 48px !important;
+}
+
+.u-mt\+ {
+  margin-top: 48px !important;
+}
+
+.u-mr\+ {
+  margin-right: 48px !important;
+}
+
+.u-mb\+ {
+  margin-bottom: 48px !important;
+}
+
+.u-ml\+ {
+  margin-left: 48px !important;
+}
+
+.u-mh\+ {
+  margin-right: 48px !important;
+  margin-left: 48px !important;
+}
+
+.u-mv\+ {
+  margin-top: 48px !important;
+  margin-bottom: 48px !important;
+}
+
+/**
+     * Remove margins.
+     */
+.u-m0 {
+  margin: 0 !important;
+}
+
+.u-mt0 {
+  margin-top: 0 !important;
+}
+
+.u-mr0 {
+  margin-right: 0 !important;
+}
+
+.u-mb0 {
+  margin-bottom: 0 !important;
+}
+
+.u-ml0 {
+  margin-left: 0 !important;
+}
+
+.u-mh0 {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
+.u-mv0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/**
+     * Padding helper classes.
+     *
+     * Add paddings.
+     */
+.u-p {
+  padding: 24px !important;
+}
+
+.u-pt {
+  padding-top: 24px !important;
+}
+
+.u-pr {
+  padding-right: 24px !important;
+}
+
+.u-pb {
+  padding-bottom: 24px !important;
+}
+
+.u-pl {
+  padding-left: 24px !important;
+}
+
+.u-ph {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
+
+.u-pv {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+
+/**
+     * Add tiny paddings.
+     */
+.u-p-- {
+  padding: 6px !important;
+}
+
+.u-pt-- {
+  padding-top: 6px !important;
+}
+
+.u-pr-- {
+  padding-right: 6px !important;
+}
+
+.u-pb-- {
+  padding-bottom: 6px !important;
+}
+
+.u-pl-- {
+  padding-left: 6px !important;
+}
+
+.u-ph-- {
+  padding-right: 6px !important;
+  padding-left: 6px !important;
+}
+
+.u-pv-- {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+/**
+     * Add small paddings.
+     */
+.u-p- {
+  padding: 12px !important;
+}
+
+.u-pt- {
+  padding-top: 12px !important;
+}
+
+.u-pr- {
+  padding-right: 12px !important;
+}
+
+.u-pb- {
+  padding-bottom: 12px !important;
+}
+
+.u-pl- {
+  padding-left: 12px !important;
+}
+
+.u-ph- {
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+}
+
+.u-pv- {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+/**
+     * Add large paddings.
+     */
+.u-p\+ {
+  padding: 48px !important;
+}
+
+.u-pt\+ {
+  padding-top: 48px !important;
+}
+
+.u-pr\+ {
+  padding-right: 48px !important;
+}
+
+.u-pb\+ {
+  padding-bottom: 48px !important;
+}
+
+.u-pl\+ {
+  padding-left: 48px !important;
+}
+
+.u-ph\+ {
+  padding-right: 48px !important;
+  padding-left: 48px !important;
+}
+
+.u-pv\+ {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+
+/**
+     * Remove paddings.
+     */
+.u-p0 {
+  padding: 0 !important;
+}
+
+.u-pt0 {
+  padding-top: 0 !important;
+}
+
+.u-pr0 {
+  padding-right: 0 !important;
+}
+
+.u-pb0 {
+  padding-bottom: 0 !important;
+}
+
+.u-pl0 {
+  padding-left: 0 !important;
+}
+
+.u-ph0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.u-pv0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/*------------------------------------*    #SPACING-RESPONSIVE
+\*------------------------------------*/
+/**
+ * Margin and padding helper classes. Use these to tweak layout on a micro
+ * level.
+ *
+ * `.(m|p)(t|r|b|l|h|v)(-|+|0) {}` = margin/padding top/right/bottom/left/horizontal/vertical less/more/none
+ */
+/*------------------------------------*    #CLEARFIX
+\*------------------------------------*/
+/**
+ * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ * Extend the clearfix class with Sass to avoid the `.clearfix` class appearing
+ * over and over in your markup.
+ */
+.clearfix:after,
+.o-box:after {
+  content: "";
+  display: table;
+  clear: both;
+}

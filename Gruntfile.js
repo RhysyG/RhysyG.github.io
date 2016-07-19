@@ -27,14 +27,14 @@ module.exports = function (grunt) {
                 relativeAssets: false,
                 outputStyle: 'expanded',
                 sassDir: 'css',
-                cssDir: '_site/css'
+                cssDir: 'css'
             },
             build: {
                 files: [{
                     expand: true,
                     cwd: 'css/',
                     src: ['**/*.{scss,sass}'],
-                    dest: '_site/css',
+                    dest: 'css',
                     ext: '.min.css'
                 }]
             }
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
         autoprefixer: {
         	dist: {
         		files: {
-        			'_site/css/main.min.css': '_site/css/main.min.css'
+        			'css/main.min.css': 'css/main.min.css'
         		}
         	}
         },
@@ -55,8 +55,17 @@ module.exports = function (grunt) {
                 'js/_mousewheelStopPropagation.js',
                 'js/_site-nav.js'
                 ],
-        		dest: '_site/js/main.min.js'
+        		dest: 'js/main.min.js'
         	}
+        },
+
+        copy: {
+            css: {
+                files: {
+                    '_site/css/main.min.css' : 'css/main.min.css',
+                    '_site/js/main.min.js' : 'css/main.min.js',
+                }
+            }
         },
 
         // Fire up a server with live reload
@@ -78,11 +87,11 @@ module.exports = function (grunt) {
             },
             sass: {
                 files: ['css/**/*.scss'],
-                tasks: ['sass', 'autoprefixer']
+                tasks: ['sass', 'autoprefixer', 'copy']
             },
             js: {
-            	files: ['js/**/*.js'],
-            	tasks: ['uglify']
+            	files: ['js/**/*.js', '!js/main.min.js'],
+            	tasks: ['uglify', 'copy']
             },
             jekyll: {
                 files: ['**/*.md', '**/*.html', '**/*.markdown' , '!**/_site/**', '!**/node_modules/**'],
