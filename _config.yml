@@ -27,14 +27,11 @@ navigation:
   url: '/about/'
 
 exclude: [
-css,
-js/main.js,
 imgs-src,
 node_modules,
 Gruntfile.js,
 package.json,
 README.md,
-fonts/selection.json
 ]
 
 keep_files: ['_site/css', '_site/js']

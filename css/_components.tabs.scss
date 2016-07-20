@@ -16,7 +16,7 @@
 	@include font-weight(bold);
 	color: $color-ui;
 	&:hover {
-		color:darken($color-ui, 11%);
+		color:darken($color-ui, 10%);
 	}
 	&.#{$state-namespace}active {
 		color:$color-links;
