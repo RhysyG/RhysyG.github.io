@@ -25,7 +25,7 @@ module.exports = function (grunt) {
             options: {
                 sourceMap: true,
                 relativeAssets: false,
-                outputStyle: 'expanded',
+                outputStyle: 'compressed',
                 sassDir: 'css',
                 cssDir: 'css'
             },
@@ -53,7 +53,8 @@ module.exports = function (grunt) {
         	build: {
         		src: [
                 'js/_mousewheelStopPropagation.js',
-                'js/_site-nav.js'
+                'js/_site-nav.js',
+                'js/_site-header.js',
                 ],
         		dest: 'js/main.min.js'
         	}

@@ -2,12 +2,19 @@
     #PAGE-HEAD
 \*------------------------------------*/
 
-$header-height: 60px;
+$header-height: $site-header-height;
 
 .#{$components-namespace}page-head {
-	position: relative;
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
 	height: $header-height;
-	//background:$color-brand;
+	background:white;
 	@include vendor(box-shadow, 0 1px 5px rgba(0,0,0,0.35));
+	@include transition(top 0.1s 0.0s ease-out);
 	z-index:2;
+	&.#{$state-namespace}hidden {
+		top:-$header-height;
+	}
 }
