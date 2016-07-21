@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Best Odds</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+html, body {
+	margin:0;
+}
+body {
+	background-color: #f2f2f2;
+}
+.wrapper {
+	position:relative;
+	max-width: 1000px;
+	margin:auto;
+	background-image: url("dummy-news.jpg");
+	height:1000px;
+}
+.video {
+	position: absolute;
+	top:170px;
+	left: 40px;
+}
+.leaderboard {
+	position: absolute;
+	top:40px;
+	right: 40px;
+}
+.mrec {
+	position: absolute;
+	top:449px;
+	right: 40px;
+}
+</style>
+
+<body>
+
+	<div class="wrapper">
+
+		<iframe class="video" width="600" height="338" src="http://www.youtube.com/embed/NbcP2Df_Tpg?rel=0" frameborder="0" allowfullscreen></iframe>
+
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="728" height="90" id="flashContent" class="leaderboard">
+			<param name="movie" value="flash.swf" />
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash" data="BO_GEN_TVC_Full_728x90.swf" width="728" height="90">
+				<!--<![endif]-->
+				<img src="BO_GEN_TVC_Full_728x90.gif" />
+				<!--[if !IE]>-->
+			</object>
+			<!--<![endif]-->
+		</object>
+		
+		<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="300" height="250" id="flashContent" class="mrec">
+			<param name="movie" value="flash.swf" />
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash" data="BO_GEN_TVC_Full_300x250.swf" width="300" height="250">
+				<!--<![endif]-->
+				<img src="BO_GEN_TVC_Full_300x250.gif" />
+				<!--[if !IE]>-->
+			</object>
+			<!--<![endif]-->
+		</object>
+
+	</div>
+
+</body>
+
+</html>

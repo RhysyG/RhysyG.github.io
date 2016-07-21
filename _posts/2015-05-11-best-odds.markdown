@@ -13,7 +13,7 @@ images: [best-odds__alt-1.jpg, best-odds__alt-2.png]
 ---
 Best Odds changes the landscape of Australian sport and racing, giving you the chance to *shop around, compare bookmakers and place bets* from one website.
 
-<a class="o-btn  c-btn" href="" target="_blank">View Banners</a>
+<a class="o-btn  c-btn" href="/showcase/best-odds/" target="_blank">View Banners <i class="i-new-tab"></i></a>
 
 ### The Brief
 Best Odds required a series of **online advertising** assets to help assist a TVC used to raise brand awareness and promote the product.
