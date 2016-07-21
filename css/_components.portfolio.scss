@@ -6,9 +6,11 @@
 %#{$components-namespace}portfolio__link {
 	display: block;
 	position: relative;
-	&:hover {
-		> .#{$components-namespace}portfolio__excerpt {
-			display:block;
+	@include media-query(lap-and-up) {
+		&:hover {
+			> .#{$components-namespace}portfolio__excerpt {
+				display:block;
+			}
 		}
 	}
 }
