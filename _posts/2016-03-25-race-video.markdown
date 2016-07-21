@@ -14,6 +14,8 @@ images: [race-video__alt-1.png, race-video__alt-2.png]
 ---
 Racevideo.com is like **YouTube for Queensland Gallops.** Thoroughbred, Harness, and Greyhound race videos are available on over 20 venues across Queensland.
 
+<a class="o-btn  c-btn" href="http://racevideo.com.au" target="_blank">Visit The Site <i class="i-new-tab"></i></a>
+
 ### The Brief
 Racing Queensland needed an affordable solution for storing a multitude of videos for a growing number of venues around Queensland. **Wordpress was their prefered content management system** and three feeds were needed from different video sources. Each series of races were to be stored for up to one month.
 

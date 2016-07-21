@@ -11,7 +11,7 @@ images: [3-little-pigs__alt-1.png, 3-little-pigs__alt-2.png, 3-little-pigs__alt-
 ---
 From Kitchens to Bathrooms, 3 Little Pigs **sell beautiful, modern products** to Australian homes.
 
-<a class="o-btn  c-btn" href="http://3littlepigs.net.au" target="_blank">Visit The Site</a>
+<a class="o-btn  c-btn" href="http://3littlepigs.net.au" target="_blank">Visit The Site <i class="i-new-tab"></i></a>
 
 ### The Brief
 3 Little Pigs came into contact to build **website sales** and **brand identity**. A new responsive website was to be created with an easier purchasing user experience, and a new logo design which expressed greater trust and reliability.
