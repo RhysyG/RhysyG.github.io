@@ -1,0 +1,83 @@
+/*------------------------------------*\
+    #SITE-HEADER
+\*------------------------------------*/
+
+.#{$components-namespace}site-header {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.#{$components-namespace}site-header__logo-link {
+	display:inline-block;
+	line-height:$header-height;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.#{$components-namespace}site-header__logo-desk {
+	display:none;
+	@include media-query(lap-and-up) {
+		display:inline-block;
+	}
+}
+
+.#{$components-namespace}site-header__back {
+	width:30px;
+	height:$header-height;
+	@include media-query(lap-and-up) {
+		display:none;
+	}
+}
+
+.#{$components-namespace}site-header__back-link {
+	display:inline-block;
+	padding:18px;
+}
+
+.#{$components-namespace}site-header__title {
+	flex: 1;
+	padding-left: $base-spacing-unit;
+}
+
+.#{$components-namespace}site-header__title-name {
+	position:relative;
+	line-height:$header-height;
+	text-align:center;
+	font-size:$inuit-heading-size-4;
+	font-weight:600;
+	color:$color-brand;
+	@include media-query(lap-and-up) {
+		padding-left:$base-spacing-unit;
+		color:$color-ui;
+		text-align:left;
+		font-size:inherit;
+		&:after {
+			content:'';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			height: 24px;
+			width: 1px;
+			background-color: $color-ui--light;
+		}
+	}
+}
+
+.#{$components-namespace}site-header__nav {
+	padding-left: $base-spacing-unit;
+}
+
+.#{$components-namespace}site-header__nav-link {
+	display:block;
+	padding: 18px $base-spacing-unit;
+	cursor:pointer;
+	&:hover {
+		text-decoration: none;
+	}
+	@include media-query(lap-and-up) {
+		display:none;
+	}
+}

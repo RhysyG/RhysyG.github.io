@@ -3,9 +3,9 @@ $icon-path: '../fonts';
 @font-face {
     font-family: 'icons';
     src:
-        url('#{$icon-path}/icons.ttf?qnu2i2') format('truetype'),
-        url('#{$icon-path}/icons.woff?qnu2i2') format('woff'),
-        url('#{$icon-path}/icons.svg?qnu2i2#icons') format('svg');
+        url('#{$icon-path}/icons.ttf?hrl4rt') format('truetype'),
+        url('#{$icon-path}/icons.woff?hrl4rt') format('woff'),
+        url('#{$icon-path}/icons.svg?hrl4rt#icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -25,9 +25,24 @@ $icon-path: '../fonts';
     -moz-osx-font-smoothing: grayscale;
 }
 
+.i-cross:before {
+  content: "\e906";
+}
+.i-arrow-down:before {
+  content: "\e902";
+}
+.i-arrow-up:before {
+  content: "\e903";
+}
+.i-arrow-right:before {
+  content: "\e904";
+}
+.i-arrow-left:before {
+  content: "\e905";
+}
 .i-new-tab:before {
-    content: "\e901";
+  content: "\e901";
 }
 .i-menu:before {
-    content: "\e900";
+  content: "\e900";
 }
