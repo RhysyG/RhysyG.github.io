@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-imageHero: rhys/about-hero.jpg
+imageHero: rhys/working.jpg
 ---
 ---
 Hey! I'm Rhys, an Australian based app designer with ten years’ worth of industry experience. I specialise in **UI Design**, **UX Design** and **Web Front End Development**. Additionally, I have great experience in **graphic design**, **brand identity** and **animation**. My client roster consists of big scale applications that have involved the latest web technologies.
