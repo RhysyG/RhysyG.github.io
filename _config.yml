@@ -1,5 +1,5 @@
 # Site settings
-title: Rhys Gregory Portfolio
+title: Rhys Gregory
 email: rhys.m.gregory@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -25,6 +25,14 @@ navigation:
   url: '/'
 - text: 'About'
   url: '/about/'
+
+defaults:
+-
+  scope:
+    path: ""      # empty string for all files
+    type: posts   # limit to posts
+  values:
+    is_post: true # automatically set is_post=true for all posts
 
 exclude: [
 imgs-src,
