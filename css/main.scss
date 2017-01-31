@@ -5,13 +5,13 @@
 /**
  * CONTENTS
  *
- * SETTINGS
+ * SETTINGS - Global variables, site-wide settings, config switches, etc.
  * Default..............inuitcss’ default settings.
  * Global...............Globally-available variables and settings/config.
  * Colors...............Manage our color palette in isolation.
  * Responsive...........inuitcss’ set up and name our breakpoints.
  *
- * TOOLS
+ * TOOLS - Site-wide mixins and functions.
  * Functions............inuitcss’ default functions.
  * Mixins...............inuitcss’ default mixins.
  * Mixins...............Our default mixins.
@@ -20,13 +20,13 @@
  * Responsive...........inuitcss’ responsive tooling (requires responsive settings).
  * Aliases..............Aliases onto longer inuitcss variables and mixins.
  *
- * GENERIC
+ * GENERIC - Low-specificity, far-reaching rulesets (e.g. resets).
  * Normalize.css........inuitcss’ A level playing field.
  * Reset................inuitcss’ A pared back reset to remove margins.
  * Box-sizing...........inuitcss’ Better default `box-sizing`.
  * Shared...............inuitcss’ Sensibly and tersely share global commonalities.
  *
- * BASE
+ * BASE - Unclassed HTML elements (e.g. a {}, blockquote {}, address {}).
  * Page.................inuitcss’ page-level styles (HTML element).
  * Page.................Our page-level styles (HTML element).
  * Headings.............inuitcss’ heading styles
@@ -34,15 +34,15 @@
  * Links................Our Hyperlink styles
  * Images...............inuitcss’ images
  *
- * OBJECTS
+ * OBJECTS - Objects, abstractions, and design patterns (e.g. .o-layout {}).
  * Buttons..............inuitcss’ buttons module.
  * Layout...............inuitcss’ layout tool.
 
- * COMPONENTS
+ * COMPONENTS - Discrete, complete chunks of UI (e.g. .c-carousel {}).
  * Buttons..............Extension of inuitcss’ buttons.
  * Portfolio............Portfolio items on homepage.
  *
- * TRUMPS
+ * TRUMPS - High-specificity, very explicit selectors. Overrides and helper classes (e.g. .u-hidden {}).
  * Widths...............inuitcss’ Simple width helper classes.
  * Spacing..............inuitcss’ Micro-level spacing.
  * Spacing-Responsive...inuitcss’ Responsive spacing.
