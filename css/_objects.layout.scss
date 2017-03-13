@@ -56,7 +56,7 @@ $layout-gutter--huge:     quadruple($layout-gutter) !default;
 .#{$objects-namespace}layout--small,
 %#{$objects-namespace}layout--small {
 
-	margin-left: $layout-gutter--small;
+	margin-left: -$layout-gutter--small;
 
 	> .#{$objects-namespace}layout__item,
 	> %#{$objects-namespace}layout__item {
