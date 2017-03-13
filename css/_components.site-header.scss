@@ -22,35 +22,22 @@
 	}
 }
 
-.#{$components-namespace}site-header__back {
-	width:30px;
-	height:$header-height;
-	@include media-query(lap-and-up) {
-		display:none;
-	}
-}
-
-.#{$components-namespace}site-header__back-link {
-	display:inline-block;
-	padding:18px;
-}
-
 .#{$components-namespace}site-header__title {
 	flex: 1;
-	padding-left: $base-spacing-unit;
+	@include media-query(lap-and-up) {
+		padding-left: $base-spacing-unit;
+	}
 }
 
 .#{$components-namespace}site-header__title-name {
 	position:relative;
 	line-height:$header-height;
-	text-align:center;
 	font-size:$inuit-heading-size-4;
 	font-weight:600;
 	color:$color-brand;
 	@include media-query(lap-and-up) {
 		padding-left:$base-spacing-unit;
 		color:$color-ui;
-		text-align:left;
 		font-size:inherit;
 		&:after {
 			content:'';
@@ -67,13 +54,32 @@
 }
 
 .#{$components-namespace}site-header__nav {
-	padding-left: $base-spacing-unit;
+	display:none;
+	@include media-query(lap-and-up) {
+		display:block;
+		padding-left: $base-spacing-unit;
+	}
 }
 
 .#{$components-namespace}site-header__nav-link {
-	display:block;
-	padding: 18px $base-spacing-unit;
+	display:flex;
+	align-items:center;
+	padding: 12px 14px;
 	cursor:pointer;
+	font-size:24px;
+	&:hover {
+		text-decoration: none;
+	}
+	@include media-query(lap-and-up) {
+		display:none;
+	}
+}
+
+.#{$components-namespace}site-header__back-link {
+	display:flex;
+	align-items:center;
+	padding: 12px 14px;
+	font-size:24px;
 	&:hover {
 		text-decoration: none;
 	}

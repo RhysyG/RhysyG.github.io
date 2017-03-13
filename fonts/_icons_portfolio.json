@@ -1,250 +1,279 @@
 {
-    "IcoMoonType": "selection",
-    "icons": [
-        {
-            "icon": {
-                "paths": [
-                    "M807.885 0l-295.319 295.319-296.451-295.319-216.115 216.115 296.451 295.319-296.451 296.451 216.115 216.115 296.451-296.451 295.319 296.451 216.115-216.115-295.319-296.451 295.319-295.319z"
-                ],
-                "attrs": [
-                    {}
-                ],
-                "isMulticolor": false,
-                "isMulticolor2": false,
-                "grid": 16,
-                "tags": [
-                    "cross"
-                ]
-            },
-            "attrs": [
-                {}
-            ],
-            "properties": {
-                "order": 506,
-                "id": 5,
-                "name": "cross",
-                "prevSize": 32,
-                "code": 59654
-            },
-            "setIdx": 0,
-            "setId": 1,
-            "iconIdx": 0
-        },
-        {
-            "icon": {
-                "paths": [
-                    "M1024 336l-160-160-352 352-352-352-160 160 512 512z"
-                ],
-                "attrs": [
-                    {}
-                ],
-                "isMulticolor": false,
-                "isMulticolor2": false,
-                "grid": 16,
-                "tags": [
-                    "arrow-down"
-                ]
-            },
-            "attrs": [
-                {}
-            ],
-            "properties": {
-                "order": 500,
-                "id": 3,
-                "name": "arrow-down",
-                "prevSize": 32,
-                "code": 59650
-            },
-            "setIdx": 0,
-            "setId": 1,
-            "iconIdx": 1
-        },
-        {
-            "icon": {
-                "paths": [
-                    "M1024 688l-160 160-352-352-352 352-160-160 512-512z"
-                ],
-                "attrs": [
-                    {}
-                ],
-                "isMulticolor": false,
-                "isMulticolor2": false,
-                "grid": 16,
-                "tags": [
-                    "arrow",
-                    "up"
-                ]
-            },
-            "attrs": [
-                {}
-            ],
-            "properties": {
-                "order": 501,
-                "id": 4,
-                "name": "arrow-up",
-                "prevSize": 32,
-                "code": 59651
-            },
-            "setIdx": 0,
-            "setId": 1,
-            "iconIdx": 2
-        },
-        {
-            "icon": {
-                "paths": [
-                    "M336 0l-160 160 352 352-352 352 160 160 512-512z"
-                ],
-                "attrs": [
-                    {}
-                ],
-                "isMulticolor": false,
-                "isMulticolor2": false,
-                "grid": 16,
-                "tags": [
-                    "arrow-right"
-                ]
-            },
-            "attrs": [
-                {}
-            ],
-            "properties": {
-                "order": 502,
-                "id": 2,
-                "name": "arrow-right",
-                "prevSize": 32,
-                "code": 59652
-            },
-            "setIdx": 0,
-            "setId": 1,
-            "iconIdx": 3
-        },
-        {
-            "icon": {
-                "paths": [
-                    "M688 0l160 160-352 352 352 352-160 160-512-512z"
-                ],
-                "attrs": [
-                    {}
-                ],
-                "isMulticolor": false,
-                "isMulticolor2": false,
-                "grid": 16,
-                "tags": [
-                    "arrow-left"
-                ]
-            },
-            "attrs": [
-                {}
-            ],
-            "properties": {
-                "order": 503,
-                "id": 1,
-                "name": "arrow-left",
-                "prevSize": 32,
-                "code": 59653
-            },
-            "setIdx": 0,
-            "setId": 1,
-            "iconIdx": 4
-        },
-        {
-            "icon": {
-                "paths": [
-                    "M192 64v768h768v-768h-768zM896 768h-640v-640h640v640zM128 896v-672l-64-64v800h800l-64-64h-672z",
-                    "M352 256l160 160-192 192 96 96 192-192 160 160v-416z"
-                ],
-                "attrs": [
-                    {},
-                    {}
-                ],
-                "isMulticolor": false,
-                "isMulticolor2": false,
-                "grid": 16,
-                "tags": [
-                    "new-tab"
-                ]
-            },
-            "attrs": [
-                {},
-                {}
-            ],
-            "properties": {
-                "order": 504,
-                "id": 0,
-                "name": "new-tab",
-                "prevSize": 32,
-                "code": 59649
-            },
-            "setIdx": 0,
-            "setId": 1,
-            "iconIdx": 5
-        },
-        {
-            "icon": {
-                "paths": [
-                    "M64 192h896v192h-896zM64 448h896v192h-896zM64 704h896v192h-896z"
-                ],
-                "attrs": [
-                    {}
-                ],
-                "isMulticolor": false,
-                "isMulticolor2": false,
-                "grid": 16,
-                "tags": [
-                    "menu"
-                ]
-            },
-            "attrs": [
-                {}
-            ],
-            "properties": {
-                "order": 505,
-                "id": 0,
-                "name": "menu",
-                "prevSize": 32,
-                "code": 59648
-            },
-            "setIdx": 0,
-            "setId": 1,
-            "iconIdx": 6
-        }
-    ],
-    "height": 1024,
-    "metadata": {
-        "name": "icons"
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M810.667 273.493l-60.16-60.16-238.507 238.507-238.507-238.507-60.16 60.16 238.507 238.507-238.507 238.507 60.16 60.16 238.507-238.507 238.507 238.507 60.16-60.16-238.507-238.507z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "grid": 16,
+        "tags": [
+          "cross"
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 506,
+        "id": 5,
+        "name": "cross",
+        "prevSize": 32,
+        "code": 59654
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 0
     },
-    "preferences": {
-        "showGlyphs": true,
-        "showQuickUse": true,
-        "showQuickUse2": true,
-        "showSVGs": true,
-        "fontPref": {
-            "prefix": "i-",
-            "metadata": {
-                "fontFamily": "icons",
-                "majorVersion": 1,
-                "minorVersion": 0
-            },
-            "metrics": {
-                "emSize": 1024,
-                "baseline": 6.25,
-                "whitespace": 50
-            },
-            "embed": false,
-            "noie8": true,
-            "ie7": false
-        },
-        "imagePref": {
-            "prefix": "icon-",
-            "png": true,
-            "useClassSelector": true,
-            "color": 0,
-            "bgColor": 16777215,
-            "classSelector": ".icon"
-        },
-        "historySize": 100,
-        "showCodes": true,
-        "gridSize": 16,
-        "showGrid": true
+    {
+      "icon": {
+        "paths": [
+          "M1024 336l-160-160-352 352-352-352-160 160 512 512z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 16,
+        "tags": [
+          "arrow-down"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 500,
+        "id": 3,
+        "name": "arrow-down",
+        "prevSize": 32,
+        "code": 59650
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 688l-160 160-352-352-352 352-160-160 512-512z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 16,
+        "tags": [
+          "arrow",
+          "up"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 501,
+        "id": 4,
+        "name": "arrow-up",
+        "prevSize": 32,
+        "code": 59651
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M336 0l-160 160 352 352-352 352 160 160 512-512z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 16,
+        "tags": [
+          "arrow-right"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 502,
+        "id": 2,
+        "name": "arrow-right",
+        "prevSize": 32,
+        "code": 59652
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 3
+    },
+    {
+      "icon": {
+        "paths": [
+          "M688 0l160 160-352 352 352 352-160 160-512-512z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 16,
+        "tags": [
+          "arrow-left"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 503,
+        "id": 1,
+        "name": "arrow-left",
+        "prevSize": 32,
+        "code": 59653
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 4
+    },
+    {
+      "icon": {
+        "paths": [
+          "M853.333 469.333h-519.253l238.507-238.507-60.587-60.16-341.333 341.333 341.333 341.333 60.16-60.16-238.080-238.507h519.253v-85.333z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "grid": 16,
+        "tags": [
+          "back"
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 508,
+        "id": 6,
+        "name": "back",
+        "prevSize": 32,
+        "code": 59655
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 5
+    },
+    {
+      "icon": {
+        "paths": [
+          "M192 64v768h768v-768h-768zM896 768h-640v-640h640v640zM128 896v-672l-64-64v800h800l-64-64h-672z",
+          "M352 256l160 160-192 192 96 96 192-192 160 160v-416z"
+        ],
+        "attrs": [
+          {},
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 16,
+        "tags": [
+          "new-tab"
+        ]
+      },
+      "attrs": [
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 504,
+        "id": 0,
+        "name": "new-tab",
+        "prevSize": 32,
+        "code": 59649
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 6
+    },
+    {
+      "icon": {
+        "paths": [
+          "M128 768h768v-85.333h-768v85.333zM128 554.667h768v-85.333h-768v85.333zM128 256v85.333h768v-85.333h-768z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "grid": 16,
+        "tags": [
+          "menu"
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 507,
+        "id": 0,
+        "name": "menu",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 7
     }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icons"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "i-",
+      "metadata": {
+        "fontFamily": "icons",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "noie8": true,
+      "ie7": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 100,
+    "showCodes": true,
+    "gridSize": 16,
+    "showGrid": true
+  }
 }
