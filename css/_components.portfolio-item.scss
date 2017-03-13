@@ -1,0 +1,9 @@
+/*------------------------------------*\
+    #PORTFOLIO ITEM
+\*------------------------------------*/
+
+.#{$components-namespace}portfolio-item__img,
+%#{$components-namespace}portfolio-item__img {
+	display: block;
+	margin:auto;
+}
