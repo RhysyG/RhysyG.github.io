@@ -32,7 +32,6 @@ $layout-gutter--huge:     quadruple($layout-gutter) !default;
 
 .#{$objects-namespace}layout__item,
 %#{$objects-namespace}layout__item {
-	@include nudge-nest('.#{$objects-namespace}layout'); /* [1] */
 	padding-left: $layout-gutter;
 	width: 100%; /* [2] */
 }

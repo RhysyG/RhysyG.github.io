@@ -2,16 +2,43 @@
 layout: page
 title: About
 permalink: /about/
-imageHero: rhys/working.jpg
+imageHero: rhys/rhys-working.jpg
+imageTitle: "Smart UX. Bold Design. Better Products."
 ---
----
-Hey! I'm Rhys, an Australian based app designer with ten years’ worth of industry experience. I specialise in **UI Design**, **UX Design** and **Web Front End Development**. Additionally, I have great experience in **graphic design**, **brand identity** and **animation**. My client roster consists of big scale applications that have involved the latest web technologies.
+Hi, I'm Rhys! **Great products** are what I’m about. Coming from a strong **UI Design** background, I’ve always been passionate about **User Experience**. From your daily email App to how your kitchen taps are designed, I’m naturally curious and always seeking the best from the products we use. Utilising my **Front End Design Development** skills, I can also pair this knowledge with developers in mind. The results are smart, efficient design that help speed your product to market. Get in touch!
 
-# Girls like guys with Skills
+# MelbCSS Talk
+
+<div class="o-layout  o-layout--center  u-mt+  u-mb+">
+
+	<div class="o-layout__item  u-1/2-lap-and-up">
+		<div class="video-iframe  u-mb">
+			<iframe class="video-iframe__iframe" src="https://www.youtube.com/embed/LMspSG45oSI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="o-layout__item  u-1/2-lap-and-up">
+		<h3>From Stylesheets to Polymer Web Components</h3>
+		I was lucky enough to present at MelbCSS on behalf of Meetup.com at the wonderful 99design studios.
+		The talk included my most recent project that involved moving from a CSS, SASS based, BEM, OOCSS framework, to styling with Polymer Web Components. Web Components come with many benefits like scoping, style encapsulation and variables. With these benefits, we can let go of a few tools we used to compensate for CSS and adapt our skills in a new way.
+	</div>
+
+</div>
+
+<h1 class="u-mb0">Skill Set</h1>
+### _The secret sauce to getting the job done_
 ---
 
 <ul class="o-layout  o-layout--center  u-mt+  u-mb">
 
+	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
+		<img class="u-mb" src="/img/vendors/sketch.png" alt="sketch">
+	</li>
+	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
+		<img class="u-mb" src="/img/vendors/invision.png" alt="invision">
+	</li>
+	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
+		<img class="u-mb" src="/img/vendors/invision-studio.png" alt="invision-studio">
+	</li>
 	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
 		<img class="u-mb" src="/img/vendors/html5.png" alt="html5">
 	</li>
@@ -22,19 +49,10 @@ Hey! I'm Rhys, an Australian based app designer with ten years’ worth of indus
 		<img class="u-mb" src="/img/vendors/sass.png" alt="sass">
 	</li>
 	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/jquery.png" alt="jquery">
+		<img class="u-mb" src="/img/vendors/webpack.png" alt="gruntJS">
 	</li>
 	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
 		<img class="u-mb" src="/img/vendors/git.png" alt="git">
-	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/grunt.png" alt="gruntJS">
-	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/bower.png" alt="bower">
-	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/jekyll.png" alt="jekyll">
 	</li>
 
 </ul>
@@ -42,18 +60,8 @@ Hey! I'm Rhys, an Australian based app designer with ten years’ worth of indus
 <ul class="o-layout  o-layout--flush  u-mb">
 
 	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">Web Front End Development</h3>
-		<p class="u-mb0">HTML5, CSS, CSS3, SASS, jQuery, Git, GruntJS, Bower, Jekyll.</p>
-		<p>
-			<small>
-				<b>Prefered CSS Method</b>: SASS, ITCSS, OOCSS, Namespaces, BEM, Nudge<br>
-				<b>Worked in backend technologies</b>: AngularJS, Razor
-			</small>
-		</p>
-	</li>
-	<li class="o-layout__item  u-1/2-lap-and-up">
 		<h3 class="u-mb-">UI Design</h3>
-		<div>Sketch</div>
+		<div>Sketch, Studio</div>
 		<p>
 			<small>
 				<b>Design Philosophy</b>: Mobile First
@@ -61,12 +69,26 @@ Hey! I'm Rhys, an Australian based app designer with ten years’ worth of indus
 		</p>
 	</li>
 	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">UI Prototyping</h3>
-		<p>Invision, Axure</p>
+		<h3 class="u-mb-">User Experience</h3>
+		<div>User Research, User Testing, Content Strategy, Invision</div>
+		<p>
+			<small>
+				<b>UX Methodologies</b>: Design Sprint, User Centered Design
+			</small>
+		</p>
 	</li>
 	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">Project Methodology XP</h3>
-		<p>Agile, Waterfall</p>
+		<h3 class="u-mb-">Web Front End Design Development</h3>
+		<p class="u-mb0">HTML5, CSS, CSS3, SASS, Javascript, Git, Webpack, GruntJS, Bower, Jekyll.</p>
+		<p>
+			<small>
+				<b>CSS Methodologies</b>: COMPONENTS, ITCSS, BEM, SASS
+			</small>
+		</p>
+	</li>
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">Project Environment XP</h3>
+		<p>Agile software development</p>
 	</li>
 	<li class="o-layout__item  u-1/2-lap-and-up">
 		<h3 class="u-mb-">Graphic Design</h3>
@@ -99,6 +121,11 @@ I am currently working full time but please feel free to *say hey* or enquire ab
 
 <div class="o-media  o-media--center  u-mb">
 	<div class="o-media__item">
+		<a class="u-link-img" href="https://dribbble.com/rhysyg" target="_blank">
+			<img width="25" src="/img/brands/dribbble.svg" alt="dribbble">
+		</a>
+	</div>
+	<div class="o-media__item">
 		<a class="u-link-img" href="https://twitter.com/RhysyGregory" target="_blank">
 			<img width="25" src="/img/brands/twitter.png" alt="twitter">
 		</a>
@@ -115,4 +142,4 @@ I am currently working full time but please feel free to *say hey* or enquire ab
 	</div>
 </div>
 
-<div class="u-text-center"><small><i><b>© 2016 Rhys Gregory</b></i></small></div>
+<div class="u-text-center"><small><i><b>© 2018 Rhys Gregory</b></i></small></div>

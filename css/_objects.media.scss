@@ -35,7 +35,6 @@ $media-gutter--huge:     quadruple($media-gutter) !default;
 .#{$objects-namespace}media__body,
 %#{$objects-namespace}media__body, {
 	padding-left: $media-gutter; /* [1] */
-	@include nudge-nest('.#{$objects-namespace}media'); /* [2] */
 }
 
 /**

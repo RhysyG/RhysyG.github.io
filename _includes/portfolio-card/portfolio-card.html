@@ -1,0 +1,14 @@
+<a href="{{ post.url | prepend: site.baseurl }}" class="project-card  project-card--link">
+	<div class="project-card__media">
+		<img class="project-card__media" src="/img/portfolio/{{ include.image }}">
+	</div>
+	<div class="project-card__primary">
+		<div class="project-card__title">{{ include.title}}</div>
+		<div class="project-card__subtitle">{% for tag in post.tags %} {{ tag }}{% if forloop.last == false %},{% endif %} {% endfor %}</div>
+	</div>
+	<div class="project-card__secondary">
+		<div class="project-card__description">
+			{{ include.excerpt | remove: '<p>' | remove: '</p>' | truncatewords:15  }}
+		</div>
+	</div>
+</a>

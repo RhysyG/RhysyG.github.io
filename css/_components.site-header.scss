@@ -5,6 +5,20 @@
 .#{$components-namespace}site-header {
 	display: flex;
 	flex-flow: row nowrap;
+	min-height: $header-height;
+
+	&--mobile {
+		@include media-query(lap-and-up) {
+			display:none;
+		}
+	}
+
+	&--desktop {
+		display: none;
+		@include media-query(lap-and-up) {
+			display: flex;
+		}
+	}
 }
 
 .#{$components-namespace}site-header__logo-link {
@@ -23,7 +37,6 @@
 }
 
 .#{$components-namespace}site-header__title {
-	flex: 1;
 	@include media-query(lap-and-up) {
 		padding-left: $base-spacing-unit;
 	}
@@ -37,8 +50,9 @@
 	color:$color-brand;
 	@include media-query(lap-and-up) {
 		padding-left:$base-spacing-unit;
-		color:$color-ui;
-		font-size:inherit;
+		@include typography(title);
+		@include theme-prop(color, text-secondary-on-background);
+		line-height:$header-height;
 		&:after {
 			content:'';
 			display: block;
@@ -58,6 +72,7 @@
 	@include media-query(lap-and-up) {
 		display:block;
 		padding-left: $base-spacing-unit;
+		margin-left: auto;
 	}
 }
 
@@ -70,9 +85,6 @@
 	&:hover {
 		text-decoration: none;
 	}
-	@include media-query(lap-and-up) {
-		display:none;
-	}
 }
 
 .#{$components-namespace}site-header__back-link {
@@ -82,8 +94,5 @@
 	font-size:24px;
 	&:hover {
 		text-decoration: none;
-	}
-	@include media-query(lap-and-up) {
-		display:none;
 	}
 }

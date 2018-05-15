@@ -59,6 +59,8 @@
 /**
  * #TOOLS
  */
+
+@import "theme/theme.scss";
 @import "bower_components/inuit-functions/tools.functions";
 @import "bower_components/inuit-mixins/tools.mixins";
 @import "tools.mixins";
@@ -68,7 +70,7 @@
 @import "tools.aliases";
 $nudge-underscores: false !default;
 $nudge-single-spaces: false !default;
-@import "bower_components/nudgecss/tools.nudge"; // Delete for Production
+@import "typography/typography.scss";
 
 /**
  * #GENERIC
@@ -125,9 +127,13 @@ $inuit-enable-list-ui--tiny: true;
 @import "components.site-header";
 @import "components.nav";
 @import "components.tabs";
-@import "components.portfolio";
+@import "components.project-card";
 @import "components.portfolio-item";
 @import "components.bands";
+@import "components.masonry-grid";
+@import "components.page-animate";
+@import "components.page-hero-image";
+@import "components.video-iframe";
 
 /**
  * #ICONS

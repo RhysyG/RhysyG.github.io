@@ -3,29 +3,23 @@ layout: default
 title: Portfolio
 ---
 <section class="o-band  c-band">
-	<ul class="o-layout  u-mb">
+	<div class="masonry-grid" >
+		<div class="masonry-gutter-sizer"></div> 
+		<div class="masonry-grid-sizer"></div>
 		{% for post in site.posts %}
-		<li class="o-layout__item  u-1/2  u-1/4-lap-and-up">
-			<a href="{{ post.url | prepend: site.baseurl }}" class="c-portfolio__link">
-				<img src="/img/portfolio/{{ post.imageThumb }}">
-				<div class="c-portfolio__excerpt">
-					<div class="o-media">
-						<div class="o-media__item"><b>{{ post.title}}</b></div>
-						<div class="o-media__item  o-media__item--right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></div>
-					</div>
-					<div><small>{% for tag in post.tags %} {{ tag }}{% if forloop.last == false %},{% endif %} {% endfor %}</small></div>
-					<hr>
-					<small>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords:15 }}</small>
-				</div>
-			</a>
-		</li>
+		<div class="masonry-grid-item">
+			{% include portfolio-card/portfolio-card.html
+			title=post.title
+			excerpt=post.excerpt
+			image=post.imageThumb %}
+		</div>
 		{% endfor %}
-	</ul>
+	</div>
 </section>
 
 <section class="o-band">
 	<div class="o-wrapper  o-wrapper--narrow  u-text-center">
-		<p class="u-kilo  u-caps">Smart UX. Bold Design. Better Apps.</p>
+		<p class="u-kilo  u-caps">Smart UX. Bold Design. Better Products.</p>
 		<p class="gamma"><i>Leading UX/UI Design, Web Front-End Development and Branding</i></p>
 		<a class="o-btn  c-btn  u-mb" href="mailto:rhys.m.gregory@gmail.com">Get In Touch!</a>
 	</div>

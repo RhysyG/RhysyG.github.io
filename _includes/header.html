@@ -1,30 +1,43 @@
 {% assign url = page.url|remove:'index.html' %}
-<header class="c-page-head" id="js-site-header">
+<header class="c-page-head  toolbar" id="js-site-header">
 	<div class="o-wrapper  o-wrapper--narrow  clearfix">
 
-		<div class="c-site-header">
-			
-			<div class="c-site-header__logo">
-				<a class="c-site-header__logo-link" href="/">
-					<img class="c-site-header__logo-desk" src="/img/rg-logo__brand-mark.svg" height="25" alt="Rhys Gregory">
-					<img src="/img/rg-logo__word-mark.svg" class="c-site-header__logo-desk  u-ml-" height="25" alt="Rhys Gregory">
-				</a>
-			</div>
-			
+		<div class="c-site-header  c-site-header--mobile">
+
 			{% if page.is_post != true %}
 			<a class="c-site-header__nav-link  js-site-nav-btn"><i class="i-menu  js-site-nav-icon"></i></a>
-			{% endif %}
-
-			{% if page.is_post == true %}
+			{% else %}
 			<a class="c-site-header__back-link" href="/"><i class="i-back"></i></a>
 			{% endif %}
+			{% if url == "/" %}
+			<div class="c-site-header__logo">
+				<a class="c-site-header__logo-link" href="/">
+					<img class="" src="/img/rg-logo__brand-mark.svg" height="25" alt="Rhys Gregory">
+					<img src="/img/rg-logo__word-mark.svg" class="  u-ml-" height="25" alt="Rhys Gregory">
+				</a>
+			</div>
+			{% else %}
+			<div class="c-site-header__title">
+				<div class="c-site-header__title-name">{{ page.title }}</div>
+			</div>
+			{% endif %}
+
+		</div>
+
+		<div class="c-site-header  c-site-header--desktop">
+
+			<div class="c-site-header__logo">
+				<a class="c-site-header__logo-link" href="/">
+					<img class="" src="/img/rg-logo__brand-mark.svg" height="25" alt="Rhys Gregory">
+					<img src="/img/rg-logo__word-mark.svg" class="  u-ml-" height="25" alt="Rhys Gregory">
+				</a>
+			</div>
 
 			<div class="c-site-header__title">
 				<div class="c-site-header__title-name">{{ page.title }}</div>
 			</div>
-			
+
 			<div class="c-site-header__nav">
-				
 				<ul class="c-site-nav-desk  o-nav  c-tabs">
 					{% for link in site.navigation %}
 					<li class="c-site-nav-desk__item  o-nav__item">

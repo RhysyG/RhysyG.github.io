@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .#{$objects-namespace}wrapper {
-	padding: 0 $base-spacing-unit--small 0 $base-spacing-unit--small;
+	padding: 0 16px 0 16px;
 	@include media-query(lap-and-up) {
 		padding: 0 $base-spacing-unit 0 $base-spacing-unit;
 	}

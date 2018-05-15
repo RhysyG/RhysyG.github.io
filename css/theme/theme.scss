@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    $THEME
+\*------------------------------------*/
+
+@import "./mixins";
+
+:root {
+	@each $style in map-keys($theme-property-values) {
+		--theme-#{$style}: #{map-get($theme-property-values, $style)};
+	}
+}
+
+// Special case, so that .theme--background changes background color, not text color.
+.theme--background {
+	@include theme-prop(background-color, background);
+}
+
+@each $style in map-keys($theme-property-values) {
+	@if $style != "background" {
+		.theme--#{$style} {
+			@include theme-prop(color, $style, true);
+		}
+	}
+}
+
+// CSS rules for using primary and secondary (plus light/dark variants) as background colors.
+@each $style in ("primary", "primary-light", "primary-dark", "secondary", "secondary-light", "secondary-dark") {
+	.theme--#{$style}-bg {
+		@include theme-prop(background-color, $style, true);
+	}
+}

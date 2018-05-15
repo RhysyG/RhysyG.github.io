@@ -2,9 +2,16 @@
 layout: default
 ---
 
-{% if page.imageHero %}
-<img src="/img/{{ page.imageHero }}">
-{% endif %}
+<div class="page-hero-image" style="background-image: url('/img/{{ page.imageHero }}'); background-size: cover; background-position: center center;">
+	{% if page.imageHero %}
+	<img class="page-hero-image__image" src="">
+	{% endif %}
+	{% if page.imageTitle %}
+	<div class="page-hero-image__content">
+		<div class="page-hero-image__title">{{ page.imageTitle }}</div>
+	</div>
+	{% endif %}
+</div>
 
 <div class="o-wrapper  o-wrapper--narrow  u-pt  u-pb+">
 

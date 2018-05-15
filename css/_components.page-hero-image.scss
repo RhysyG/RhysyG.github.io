@@ -1,0 +1,42 @@
+/*------------------------------------*\
+	#PAGE-HERO-IMAGE
+\*------------------------------------*/
+
+/**
+*
+ * Used for big hero images on a page with text overlay
+ */
+.page-hero-image {
+	position: relative;
+	height: 200px;
+
+	@include media-query(lap-and-up) {
+		height: 560px;
+	}
+
+	@include media-query(desk-wide) {
+		height: 700px;
+	}
+
+	&__content {
+		position: absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%, -50%);
+		width: calc(100% - 48px);
+		@include media-query(lap-and-up) {
+			width: auto;
+		}
+	}
+
+	&__title {
+		@include typography(title);
+		@include theme-prop(color, text-primary-on-dark);
+		text-transform: uppercase;
+		text-align: center;
+		@include media-query(lap-and-up) {
+			font-size: 3rem;
+			line-height: 4rem;
+		}
+	}
+ }

@@ -1,0 +1,67 @@
+@import "./variables";
+
+@mixin typography-base {
+	font-family: $typography-font-family;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin typography-secondary {
+	font-family: $typography-secondary-font-family;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin typography($style, $font:"") {
+	$style-props: map-get($typography-styles, $style);
+
+	@if not map-has-key($typography-styles, $style) {
+		@error "Invalid style specified! Choose one of #{map-keys($typography-styles)}";
+	}
+
+	@if $font == "" {
+		@include typography-base;
+	} @else if $font == "secondary" {
+		@include typography-secondary;
+	} @else {
+		@error "Invalid style specified! Leave empty or choose secondary";
+	}
+
+	font-size: map-get($style-props, font-size);
+	font-weight: #{map-get($style-props, font-weight)};
+	letter-spacing: map-get($style-props, letter-spacing);
+	line-height: map-get($style-props, line-height);
+	text-decoration: map-get($style-props, text-decoration);
+	text-transform: map-get($style-props, text-transform);
+}
+
+@mixin theme-font($size, $style:normal, $weight:null) {
+    font-size: $size;
+    @if $style == ext {
+        @if $weight == bold {
+            font-family: 'OPAPExt-Bold', Arial, sans-serif;
+        }
+        @else {
+            font-family: 'OPAPExt', Arial, sans-serif;
+        }
+    }
+    @else {
+        @if $weight == bold {
+            font-family: 'OPAPMedium-Bold', Arial, sans-serif;
+        }
+        @else {
+            font-family: 'OPAPMedium', Arial, sans-serif;
+        }
+    }
+}
+
+@mixin typography-adjust-margin($style) {
+	margin: map-get(map-get($typography-styles, $style), margin);
+}
+
+// Element must be `display: block` or `display: inline-block` for this to work.
+@mixin typography-overflow-ellipsis {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}

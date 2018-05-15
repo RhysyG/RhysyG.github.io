@@ -1,0 +1,30 @@
+/*------------------------------------*\
+	#MASONRY-GRID
+\*------------------------------------*/
+
+/**
+*
+ * Traditional masonry grid. Used with masonry.js by desandro
+ * https://github.com/desandro/masonry
+ */
+
+.masonry-gutter-sizer {
+	width: 16px;
+}
+
+.masonry-grid-item, .masonry-grid-sizer {
+	width: 100%;
+	@include media-query(lap) {
+		width: calc( (100% - 16px) / 2 );
+	}
+	@include media-query(desk) {
+		width: calc( (100% - 32px) / 3 );
+	}
+	@include media-query(desk-wide) {
+		width: calc( (100% - 48px) / 4 ); //1/5 column, minus 3 gutters of 16px
+	}
+}
+
+.masonry-grid-item {
+	margin-bottom: 16px;
+}

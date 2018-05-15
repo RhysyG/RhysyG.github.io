@@ -55,6 +55,8 @@ module.exports = function (grunt) {
                 'js/_mousewheelStopPropagation.js',
                 'js/_site-nav.js',
                 'js/_site-header.js',
+                'js/_app.js',
+                'js/_page-animate.js',
                 ],
         		dest: 'js/main.min.js'
         	}
