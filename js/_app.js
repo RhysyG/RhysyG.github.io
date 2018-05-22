@@ -21,9 +21,12 @@ function initiateMasonryGrid() {
 
 	// TODO: Not sure why I need a timeout but timing are off for some reason
 
-	window.setTimeout(function(){
+	imagesLoaded( document.querySelector('.masonry-grid'), function( instance ) {
+		// console.log('all images are loaded');
 		msnry.layout();
-	},100);
+	});
+
+	
 }
 
 Barba.Dispatcher.on('newPageReady', function() {
@@ -32,4 +35,9 @@ Barba.Dispatcher.on('newPageReady', function() {
 	if (elem) {
 		initiateMasonryGrid();
 	}
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+	console.log("DOMContentLoaded");
+
 });

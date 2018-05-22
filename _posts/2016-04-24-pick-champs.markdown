@@ -13,7 +13,7 @@ images: [pick-champs__alt-1.png, pick-champs__alt-2.png]
 ---
 PickChamps is a completely new, simple and fun way to play Daily Fantasy Sports. Accumulate points by making customized statistical predictions (picks) on real athletes. Earn more points than your competitors to climb your way up the leaderboard and win real cash!
 
-<a class="o-btn  c-btn" href="pickchamps.com" target="_blank">Visit The Site <i class="i-new-tab"></i></a>
+<a class="o-btn  c-btn" href="http://pickchamps.com/" target="_blank">Visit The Site <i class="i-new-tab"></i></a>
 
 ### The Brief
 PickChamps approached us to create a Daily Fantasy Sports Product with a difference. If you’re not familiar with Fantasy Sports, it’s a build your own fantasy team from a sporting code, earn points based on an athlete’s performance, climb your way to the top of the leaderboard, and win real cash. PickChamps wanted to create a similar experience but with no salary caps, customized statistical predictions (picks) instead of overall performance, and head to head battles for athletes.
