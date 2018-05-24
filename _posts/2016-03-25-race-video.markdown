@@ -10,7 +10,7 @@ categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: race-video__thumb.jpg
 imageHero: race-video__hero.jpg
-images: [race-video__alt-1.png, race-video__alt-2.png]
+images: [race-video__alt-1.jpg, race-video__alt-2.png]
 ---
 Racevideo.com is like **YouTube for Queensland Gallops.** Thoroughbred, Harness, and Greyhound race videos are available on over 20 venues across Queensland.
 

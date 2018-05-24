@@ -134,6 +134,7 @@ $inuit-enable-list-ui--tiny: true;
 @import "components.page-animate";
 @import "components.page-hero-image";
 @import "components.video-iframe";
+@import "components.page-portfolio";
 
 /**
  * #ICONS
@@ -163,6 +164,7 @@ $inuit-enable-paddings--tiny:true;
 $inuit-enable-paddings--small:true;
 $inuit-enable-paddings--large:true;
 @import "bower_components/inuit-spacing/trumps.spacing";
+$inuit-enable-responsive-margins--large:true;
 @import "bower_components/inuit-spacing-responsive/trumps.spacing-responsive";
 @import "bower_components/inuit-clearfix/trumps.clearfix";
 //@import "bower_components/nudgecss/trumps.nudge"; // Delete for Production

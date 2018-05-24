@@ -9,7 +9,7 @@
 
 .#{$objects-namespace}band,
 %#{$objects-namespace}band {
-	padding: $base-spacing-unit $base-spacing-unit;
+	padding: 16px 16px;
 	@include media-query(lap-and-up) {
 		padding: $base-spacing-unit--large $base-spacing-unit--large;
 	}

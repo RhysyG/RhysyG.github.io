@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #PAGE-PORTFOLIO
+\*------------------------------------*/
+
+.page-portfolio-title {
+	font-size: 2rem;
+	line-height: 1;
+	text-transform: uppercase;
+	@include media-query(lap-and-up) {
+		font-size: 3rem;
+	}
+}
+
+.page-portfolio-subtitle {
+	@include typography(title);
+	font-weight:400;
+	@include media-query(lap-and-up) {
+		font-size: 1.5rem;
+		line-height: 1;
+	}
+}

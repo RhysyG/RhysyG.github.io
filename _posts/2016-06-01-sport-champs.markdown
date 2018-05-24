@@ -10,7 +10,7 @@ categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: sports-champs__thumb.jpg
 imageHero: sports-champs__hero.jpg
-images: [sports-champs__alt-1.png, sports-champs__alt-2.png]
+images: [sports-champs__alt-1.png, sports-champs__alt-2.jpg]
 ---
 
 Fantasy Betting just got ‘social’. SportsChamps is Australia’s and UK’s new way to play Fantasy Betting with your mates to win real cash. Enter the big public room, or simply create a private comp with your selected mates. Place your virtual bets, build your balance, and race up the leaderboard to see who’s the Sporting Champ.

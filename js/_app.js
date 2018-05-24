@@ -30,14 +30,8 @@ function initiateMasonryGrid() {
 }
 
 Barba.Dispatcher.on('newPageReady', function() {
-	console.log("newPageReady");
 	var elem = document.querySelector('.masonry-grid');
 	if (elem) {
 		initiateMasonryGrid();
 	}
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-	console.log("DOMContentLoaded");
-
 });

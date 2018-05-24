@@ -29,12 +29,12 @@ document.addEventListener("DOMContentLoaded", function() {
 		},
 
 		scrollTop: function() {
-			console.log("test");
+			// console.log("test");
 		},
 
 		movePages: function() {
 			window.scrollTo( 0, 0 );
-			console.log('Just finished scrolling to ' + window.pageYOffset + ' px');
+			// console.log('Just finished scrolling to ' + window.pageYOffset + ' px');
 			var _this = this;
 			this.updateLinks();
 			var newContainer = this.newContainer;

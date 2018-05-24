@@ -10,7 +10,7 @@ categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: betting-club__thumb.jpg
 imageHero: betting-club__hero.jpg
-images: [betting-club__alt-1.png, betting-club__alt-2.png]
+images: [betting-club__alt-1.png, betting-club__alt-2.png, betting-club__alt-3.png]
 ---
 Betting.club offers punters the chance to **bet and be social** in the one platform. Gone are the days of having to screenshot your mobile and text your mates, do it ALL in the one location with Betting.club. Through our social betting platform you can **share form, tips and betting activity!**
 
