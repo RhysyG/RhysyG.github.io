@@ -9,8 +9,10 @@ categories: portfolio
 tags: [logo design, brand identity]
 imageThumb: eq-pay__thumb.jpg
 imageHero: eq-pay__hero.jpg
-images: [eq-pay__alt-1.jpg]
+excerpt: "EQ Pay is a payment management tool for Thoroughbred, Harness and Ground Racing"
 ---
+<div class="o-wrapper  o-wrapper--narrow  u-pt  u-pb+" markdown="1">
+
 EQ Pay is a **payment management tool** for Thoroughbred, Harness and Ground Racing. EQ Pay makes sure that trainers and service providers get paid on time and in full.
 
 ### The Brief
@@ -18,3 +20,15 @@ EQ Pay is essentially like a payment gateway and needed a logo to reflect mainly
 
 ### The Solution
 Using a Thoroughbred graphic as the focal point, a slick abstract circle was fitted to add a unique look to **easily identify the brand.** Blue was used as the brand color which always has good associations to other brands that are trusting, calm, confident and safe.
+
+</div>
+
+<section class="o-band  c-band  u-pb+">
+	<div class="o-wrapper  o-wrapper--narrow  u-text-center">
+		<div class="o-layout  o-layout--center">
+			<div class="o-layout__item  u-1/1">
+				<img class="u-mb" src="/img/portfolio/eq-pay__alt-1.jpg" alt="EQ Pay">
+			</div>
+		</div>
+	</div>
+</section>

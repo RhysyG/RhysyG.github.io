@@ -7,25 +7,17 @@ layout: default
 
 <div class="o-wrapper  o-wrapper--narrow  u-pt">
 
-	<header>
+	<div>
 		<h1 class="u-mb0">{{ page.title }}</h1>
 		<p class="u-mb-">{% if page.role %}{{page.role}} {% endif %}by <a>{{ page.author }}</a> {% if page.company %}at <a href="{{ page.companyURL }}" target="_blank">{{ page.company }}</a>{% endif %} on {{ page.date | date: "%b %-d, %Y" }}</p>
 		<small>
 			<p>{% for tag in page.tags %} <a>{{ tag }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}</p>
 		</small>
 		<hr>
-	</header>
-
-	<article class="u-mb">
-		{{ content }}
-	</article>
+	</div>
 
 </div>
 
-<section class="o-band  c-band  u-pb0">
-	<div class="o-wrapper  o-wrapper--narrow  u-text-center">
-		{% for image in page.images %}
-		<img src="/img/portfolio/{{ image }}" class="c-portfolio-item__img  u-pb+">
-		{% endfor %}
-	</div>
-</section>
+<article>
+	{{ content }}
+</article>

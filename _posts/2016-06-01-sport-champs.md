@@ -10,8 +10,10 @@ categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: sports-champs__thumb.jpg
 imageHero: sports-champs__hero.jpg
-images: [sports-champs__alt-1.png, sports-champs__alt-2.jpg]
+excerpt: "Fantasy Betting just got ‘social’. SportsChamps is Australia’s and UK’s new way to play Fantasy Betting with your mates to win real cash."
 ---
+
+<div class="o-wrapper  o-wrapper--narrow  u-pt  u-pb+" markdown="1">
 
 Fantasy Betting just got ‘social’. SportsChamps is Australia’s and UK’s new way to play Fantasy Betting with your mates to win real cash. Enter the big public room, or simply create a private comp with your selected mates. Place your virtual bets, build your balance, and race up the leaderboard to see who’s the Sporting Champ.
 
@@ -35,3 +37,21 @@ To increase social gameplay we decided to add a friends/connections component to
 #### Prizebar
 
 By using the other Fantasy Platforms on the market, we found there was a real lack of leaderboard position for winning prize money. After all, that’s the main reason why we play! We came up with a little horizontal bar graph that highlights the payout positions, shows where you are in relation, and displays the least amount of virtual cash you need to win a prize.
+
+</div>
+
+<section class="o-band  c-band  u-pb+">
+	<div class="o-wrapper  o-wrapper--narrow  u-text-center">
+		<div class="o-layout  o-layout--center">
+			<div class="o-layout__item  u-1/1  u-1/2-lap-and-up">
+				<img class="page-portfolio-item-mobile-img  u-mb" src="/img/portfolio/sports-champs__alt-2.jpg" alt="Sport Champs">
+			</div>
+			<div class="o-layout__item  u-1/1  u-1/2-lap-and-up">
+				<img class="page-portfolio-item-mobile-img  u-mb" src="/img/portfolio/sports-champs__alt-3.jpg" alt="invision">
+			</div>
+		</div>
+		<div>
+			<img src="/img/portfolio/sports-champs__alt-1.png" class="c-portfolio-item__img  u-mb+">
+		</div>
+	</div>
+</section>

@@ -9,8 +9,10 @@ categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: pick-champs__thumb.jpg
 imageHero: pick-champs__hero.jpg
-images: [pick-champs__alt-1.png, pick-champs__alt-2.png]
+excerpt: "PickChamps is a completely new, simple and fun way to play Daily Fantasy Sports. Accumulate points by making customized statistical predictions (picks) on real athletes."
 ---
+<div class="o-wrapper  o-wrapper--narrow  u-pt  u-pb+" markdown="1">
+
 PickChamps is a completely new, simple and fun way to play Daily Fantasy Sports. Accumulate points by making customized statistical predictions (picks) on real athletes. Earn more points than your competitors to climb your way up the leaderboard and win real cash!
 
 <a class="o-btn  c-btn" href="http://pickchamps.com/" target="_blank">Visit The Site <i class="i-new-tab"></i></a>
@@ -32,3 +34,24 @@ We decided to tackle the Pick Builder by identifying what we thought would be th
 Taking in all of points above, we decided to use a single screen user interface approach to minimise back and forth clicks, and maximise the enormous flexibility of pick combinations.
 
 Some of the others features included; Leaderboard “find me”. To speed up finding who is around you, how many points you need to beat your opponents, and how far off winning prize money by taking you to your personal position on the leaderboard. Quick Picks. Quick Picks were created for users who didn’t have a pick in mind or have time to create one. Using this feature allows you to choose from a list of randomised completed picks which you can put on in 3 clicks.
+
+</div>
+
+<section class="o-band  c-band  u-pb+">
+	<div class="o-wrapper  o-wrapper--narrow  u-text-center">
+		<div class="o-layout  o-layout--center">
+			<div class="o-layout__item  u-1/1  u-1/3-lap-and-up">
+				<img class="page-portfolio-item-mobile-img  u-mb" src="/img/portfolio/pick-champs__alt-2.jpg" alt="Pick Champs">
+			</div>
+			<div class="o-layout__item  u-1/1  u-1/3-lap-and-up">
+				<img class="page-portfolio-item-mobile-img  u-mb" src="/img/portfolio/pick-champs__alt-3.jpg" alt="Pick Champs">
+			</div>
+			<div class="o-layout__item  u-1/1  u-1/3-lap-and-up">
+				<img class="page-portfolio-item-mobile-img  u-mb" src="/img/portfolio/pick-champs__alt-4.jpg" alt="Pick Champs">
+			</div>
+		</div>
+		<div>
+			<img src="/img/portfolio/pick-champs__alt-1.png" class="c-portfolio-item__img  u-mb+">
+		</div>
+	</div>
+</section>

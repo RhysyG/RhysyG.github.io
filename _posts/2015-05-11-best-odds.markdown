@@ -9,8 +9,10 @@ categories: portfolio
 tags: [banner advertising]
 imageThumb: best-odds__thumb.jpg
 imageHero: best-odds__hero.jpg
-images: [best-odds__alt-1.jpg, best-odds__alt-2.png]
+excerpt: "Best Odds changes the landscape of Australian sport and racing, giving you the chance to shop around, compare bookmakers and place bets from one website."
 ---
+<div class="o-wrapper  o-wrapper--narrow  u-pt  u-pb+" markdown="1">
+
 Best Odds changes the landscape of Australian sport and racing, giving you the chance to *shop around, compare bookmakers and place bets* from one website.
 
 <a class="o-btn  c-btn" href="/showcase/best-odds/" target="_blank">View Banners <i class="i-new-tab"></i></a>
@@ -20,3 +22,18 @@ Best Odds required a series of **online advertising** assets to help assist a TV
 
 ### The Solution
 A series of Flash and Gif banners were made in various sizes and lengths and used across a broad range of **advertising networks**. Facebook and Google advertising were also heavily used.
+
+</div>
+
+<section class="o-band  c-band  u-pb+">
+	<div class="o-wrapper  o-wrapper--narrow  u-text-center">
+		<div class="o-layout  o-layout--center">
+			<div class="o-layout__item  u-1/1">
+				<img class="u-mb" src="/img/portfolio/best-odds__alt-1.jpg" alt="Best Odds">
+			</div>
+			<div class="o-layout__item  u-1/1">
+				<img class="u-mb" src="/img/portfolio/best-odds__alt-2.png" alt="Best Odds">
+			</div>
+		</div>
+	</div>
+</section>

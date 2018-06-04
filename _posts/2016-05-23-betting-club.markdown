@@ -10,8 +10,10 @@ categories: portfolio
 tags: [ux design, ui design, front end development]
 imageThumb: betting-club__thumb.jpg
 imageHero: betting-club__hero.jpg
-images: [betting-club__alt-1.png, betting-club__alt-2.png, betting-club__alt-3.png]
+excerpt: "Betting.club offers punters the chance to bet and be social in the one platform."
 ---
+<div class="o-wrapper  o-wrapper--narrow  u-pt  u-pb+" markdown="1">
+
 Betting.club offers punters the chance to **bet and be social** in the one platform. Gone are the days of having to screenshot your mobile and text your mates, do it ALL in the one location with Betting.club. Through our social betting platform you can **share form, tips and betting activity!**
 
 <a class="o-btn  c-btn" href="http://betting.club" target="_blank">Visit The Site <i class="i-new-tab"></i></a>
@@ -41,3 +43,21 @@ For the more advanced users who mark their form before a race day, Share Form le
 #### Sharing Black Books
 
 *“Have you seen anything worth backing lately?.”* “Get behind that filly in Race 6, it’s a gun!”. Every Punter has a trusty book of strong runners which is **great sharing content**. Share Black Books lets you share all your Black Booked runners with your connections to help them find a winner in a tough field.
+
+</div>
+
+<section class="o-band  c-band  u-pb+">
+	<div class="o-wrapper  o-wrapper--narrow  u-text-center">
+		<div class="o-layout  o-layout--center">
+			<div class="o-layout__item  u-1/1  u-1/2-lap-and-up">
+				<img class="page-portfolio-item-mobile-img  u-mb" src="/img/portfolio/betting-club__alt-2.jpg" alt="invision">
+			</div>
+			<div class="o-layout__item  u-1/1  u-1/2-lap-and-up">
+				<img class="page-portfolio-item-mobile-img  u-mb" src="/img/portfolio/betting-club__alt-3.jpg" alt="Sport Champs">
+			</div>
+		</div>
+		<div>
+			<img src="/img/portfolio/betting-club__alt-1.png" class="c-portfolio-item__img  u-mb+">
+		</div>
+	</div>
+</section>
