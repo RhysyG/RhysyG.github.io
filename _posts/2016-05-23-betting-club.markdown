@@ -16,8 +16,6 @@ excerpt: "Betting.club offers punters the chance to bet and be social in the one
 
 Betting.club offers punters the chance to **bet and be social** in the one platform. Gone are the days of having to screenshot your mobile and text your mates, do it ALL in the one location with Betting.club. Through our social betting platform you can **share form, tips and betting activity!**
 
-<a class="o-btn  c-btn" href="http://betting.club" target="_blank">Visit The Site <i class="i-new-tab"></i></a>
-
 ### The Brief
 Betting.club wanted to create a **real world online betting experience.** The common punter is inherently social, however there was a big gap in the market for social functionality, leaving users to resort to third party tools like texting. Betting.club seized this opportunity and came to us to bring it to life. In tern we came up with a minimal viable product with a full sportsbook, and some **nifty social features.**
 

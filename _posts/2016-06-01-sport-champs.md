@@ -22,6 +22,14 @@ The SportChamps team outlined their idea’s for a new product to take on the UK
 
 ### The Solution
 
+Through a collaborated user research process, we identified a lack of social gameplay in the current market of Sports Betting related products. Think AFL Dream Team, Super Coach, but with a daily financial gain. Overseas competitors FanDuel and Draft Kings have led the charge for this style of product, but Australia had yet to see such a game.
+
+The constraints of using an existing Sportsbook were going to make the simple gameplay challenging, so we had to make sure other aspects of the product were kept minimal to not overwhelm the user.
+
+We identified users don’t have a lot of time to play these games so we began with a simple ‘Bet N Go’ version which was a quick investment of time.
+
+The Australian market posed a few other challenges. In American, betting is only legal in a few states. This allowed products like FanDuel to have a big market share as the “Fantasy” aspect  was able to bypass this law. In Australia, betting is legal, so the amount of market share we could gain was going to be a lot smaller.
+
 #### Layout
 
 We identified early that layout was going to be an important part to get right as we were dealing with core navigation, real and virtual cash balances, game mode navigation, and a full sportsbook.  We used contextual menu’s for the Apps and a sidebar menu for the desktop. This way for the App we could have the core nav and real balance in the parent view and the game menu and virtual balance in the child view.

@@ -7,23 +7,6 @@ imageTitle: "Smart UX. Bold Design. Better Products."
 ---
 Hi, I'm Rhys! **Great products** are what I’m about. Coming from a strong **UI Design** background, I’ve always been passionate about **User Experience**. From your daily email App to how your kitchen taps are designed, I’m naturally curious and always seeking the best from the products we use. Utilising my **Front End Design Development** skills, I can also pair this knowledge with developers in mind. The results are smart, efficient design that help speed your product to market. Get in touch!
 
-# MelbCSS Talk
-
-<div class="o-layout  o-layout--center  u-mt+  u-mb+">
-
-	<div class="o-layout__item  u-1/2-lap-and-up">
-		<div class="video-iframe  u-mb">
-			<iframe class="video-iframe__iframe" src="https://www.youtube.com/embed/LMspSG45oSI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		</div>
-	</div>
-	<div class="o-layout__item  u-1/2-lap-and-up">
-		<h3>From Stylesheets to Polymer Web Components</h3>
-		I was lucky enough to present at MelbCSS on behalf of Meetup.com at the wonderful 99design studios.
-		The talk included my most recent project that involved moving from a CSS, SASS based, BEM, OOCSS framework, to styling with Polymer Web Components. Web Components come with many benefits like scoping, style encapsulation and variables. With these benefits, we can let go of a few tools we used to compensate for CSS and adapt our skills in a new way.
-	</div>
-
-</div>
-
 <h1 class="u-mb0">Skill Set</h1>
 ### _The secret sauce to getting the job done_
 ---
@@ -90,25 +73,25 @@ Hi, I'm Rhys! **Great products** are what I’m about. Coming from a strong **UI
 		<h3 class="u-mb-">Project Environment XP</h3>
 		<p>Agile software development</p>
 	</li>
-	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">Graphic Design</h3>
-		<p>Photoshop</p>
-	</li>
-	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">Logo Design</h3>
-		<p>Illustrator</p>
-	</li>
-	
-	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">E-Commerce</h3>
-		<p>WooCommerce</p>
-	</li>
-	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">Online Advertising</h3>
-		<p>Google Web Developer, Adobe Edge Animate CC, Greensock</p>
-	</li>
 
 </ul>
+
+# MelbCSS Talk
+
+<div class="o-layout  o-layout--center  u-mt+  u-mb+">
+
+	<div class="o-layout__item  u-1/2-lap-and-up">
+		<div class="video-iframe  u-mb">
+			<iframe class="video-iframe__iframe" src="https://www.youtube.com/embed/LMspSG45oSI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="o-layout__item  u-1/2-lap-and-up">
+		<h3>From Stylesheets to Polymer Web Components</h3>
+		I was lucky enough to present at MelbCSS on behalf of Meetup.com at the wonderful 99design studios.
+		The talk included my most recent project that involved moving from a CSS, SASS based, BEM, OOCSS framework, to styling with Polymer Web Components. Web Components come with many benefits like scoping, style encapsulation and variables. With these benefits, we can let go of a few tools we used to compensate for CSS and adapt our skills in a new way.
+	</div>
+
+</div>
 
 # Social Pipes
 ---
