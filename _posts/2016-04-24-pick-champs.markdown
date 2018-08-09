@@ -6,7 +6,7 @@ author: Rhys Gregory
 company: Artisan Digital
 companyURL: http://artisandd.com.au
 categories: portfolio
-tags: [ux design, ui design, front end development]
+tags: [ux design, ui design]
 imageThumb: pick-champs__thumb.jpg
 imageHero: pick-champs__hero.jpg
 excerpt: "PickChamps is a completely new, simple and fun way to play Daily Fantasy Sports. Accumulate points by making customized statistical predictions (picks) on real athletes."

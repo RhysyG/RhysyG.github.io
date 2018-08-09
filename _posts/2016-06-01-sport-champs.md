@@ -7,7 +7,7 @@ role: collaborated
 company: Artisan Digital
 companyURL: http://artisandd.com.au
 categories: portfolio
-tags: [ux design, ui design, front end development]
+tags: [ux design, ui design]
 imageThumb: sports-champs__thumb.jpg
 imageHero: sports-champs__hero.jpg
 excerpt: "Fantasy Betting just got ‘social’. SportsChamps is Australia’s and UK’s new way to play Fantasy Betting with your mates to win real cash."

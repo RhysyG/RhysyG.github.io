@@ -7,7 +7,7 @@ role: collaborated
 company: Artisan Digital
 companyURL: http://artisandd.com.au
 categories: portfolio
-tags: [ux design, ui design, front end development]
+tags: [ux design, ui design]
 imageThumb: betting-club__thumb.jpg
 imageHero: betting-club__hero.jpg
 excerpt: "Betting.club offers punters the chance to bet and be social in the one platform."

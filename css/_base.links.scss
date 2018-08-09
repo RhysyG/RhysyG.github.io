@@ -10,3 +10,10 @@ a {
 		text-decoration: underline;
 	}
 }
+
+.resp-iframe {
+	display: block;
+	@include media-query(mobile) {
+		transform: scale(0.6);
+	}
+}

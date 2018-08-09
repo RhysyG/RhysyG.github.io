@@ -7,7 +7,7 @@ role: collaborated
 company: Artisan Digital
 companyURL: http://artisandd.com.au
 categories: portfolio
-tags: [ux design, ui design, front end development]
+tags: [ux design, ui design]
 imageThumb: race-video__thumb.jpg
 imageHero: race-video__hero.jpg
 images: [race-video__alt-1.jpg, race-video__alt-2.png]
