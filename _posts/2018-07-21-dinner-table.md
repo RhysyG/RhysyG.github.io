@@ -20,12 +20,16 @@ excerpt: "Dinner Table makes it easy to catch up family or friends that are rest
 
 <div class="o-wrapper  o-wrapper--narrow  u-pt  u-pb+" markdown="1">
 
+Dinner Table is a communication App that makes it easier to catch up family or friends that are restricted by time zone and geographical boundaries.
+
+<small>Note: This is a unsolicited project demonstrating the UX Design Procress. The App has not gone into development.</small>
+
 ## What are we trying to solve?
 
 Families and friends are increasingly spreading all over a single country or even all over the world.
 While staying connected has grown leaps and bounds with technology, people still face problems across difficult time zones when they want a face to face personal conversation.
 
-<small>Note: This is a unsolicited project demonstrating the UX Design Procress</small>
+
 
 ---
 
