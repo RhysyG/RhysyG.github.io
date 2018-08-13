@@ -242,7 +242,7 @@ Dinner Table uses a color theme inspired by the deep browns and rich greens from
 * Dinner Table’s primary color is Table Brown
 * Dinner Table’s secondary color is Thyme Green
 
-<img style="display: block; margin: auto; max-width: 900px;" src="/img/portfolio/dinner-table/colour-theme.png" class="u-mb+">
+<img style="display: block; margin: auto; max-width: 900px; width: 100%;" src="/img/portfolio/dinner-table/colour-theme.png" class="u-mb+">
 
 #### Task Scenarios
 
