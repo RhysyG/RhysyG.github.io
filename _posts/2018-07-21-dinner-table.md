@@ -20,7 +20,7 @@ excerpt: "Dinner Table makes it easy to catch up family or friends that are rest
 
 <div class="o-wrapper  o-wrapper--narrow  u-pt  u-pb+" markdown="1">
 
-Dinner Table is a communication App that makes it easier to catch up family or friends that are restricted by time zone and geographical boundaries.
+Dinner Table is a communication App that makes it easier to catch up with family or friends that are restricted by time zone and geographical boundaries.
 
 <small>Note: This is a unsolicited project demonstrating the UX Design Procress. The App has not gone into development.</small>
 
