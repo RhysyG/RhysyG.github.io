@@ -97,8 +97,6 @@ In its simplest form, the features we need are to allow users to connect, start 
 
 >In an ever expansive world, families want a better way to catch up when restricted by time zone and geographical boundaries. Their next best catch up is just one Dinner Table catch up away!
 
-WRITE THIS BETTER: Imagine an amazing video with questions going back and forth, everyone getting involced, 
-
 Dinner Table makes it easy to catch up family or friends that are restricted by time zone and geographical boundaries. In its simplest form, the features allow users to connect, start group conversations, note down questions on the run, record questions and answers, and stitch them all together into one amazing dinner table video catch up. This can all be done in the convenience of your own time to tackle time zone and geographical boundaries.
 
 ---

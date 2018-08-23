@@ -29,3 +29,9 @@ hr {
 a, strong, b, dt {
 	@include font-weight(bold);
 }
+
+blockquote {
+	font-size: 24px;
+	padding-left: 16px;
+	font-style: italic;
+}
