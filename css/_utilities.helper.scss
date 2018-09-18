@@ -29,10 +29,14 @@
 	text-transform:uppercase!important;
 }
 
+.#{$utilities-namespace}text-grey{
+	color: #333;
+}
+
 /**
  * Linka
  */
 
- .#{$utilities-namespace}link-img{
+.#{$utilities-namespace}link-img{
 	display:inline-block;
 }
