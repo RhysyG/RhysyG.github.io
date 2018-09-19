@@ -187,12 +187,6 @@ We come up with a few neat component metaphors but most of the Visual Design was
 ## Usability Testing
 
 <div class="o-layout  o-layout--center">
-	<div class="o-layout__item  u-1/2  u-1/4-lap-and-up">
-		<img src="/img/portfolio/ticket-tournament/usability-testing-1.png" class="u-mb+">
-	</div>
-	<div class="o-layout__item  u-1/2  u-1/4-lap-and-up">
-		<img src="/img/portfolio/ticket-tournament/usability-testing-2.png" class="u-mb+">
-	</div>
 	<div class="o-layout__item  u-1/1  u-2/4-lap-and-up">
 		<h4>Game Navigation</h4>
 		<p>A/B Usabilty Test was conducted with 30 test participants. The goal was to discover metrics about how the prototype performed. One of the key areas was the way users navigated throughout the game. The stakeholders were very keen on navigation 2, using a card with an accordion. The gain their trust and convince them on an alternative option, we conducted a usability test.</p>
@@ -203,6 +197,12 @@ We come up with a few neat component metaphors but most of the Visual Design was
 			<li>Users wanted to know what the next event is if they make it through</li>
 			<li>It's less click and more convinient to use back/forwards arrows</li>
 		</ul>
+	</div>
+	<div class="o-layout__item  u-1/2  u-1/4-lap-and-up">
+		<img src="/img/portfolio/ticket-tournament/usability-testing-1.png" class="u-mb+">
+	</div>
+	<div class="o-layout__item  u-1/2  u-1/4-lap-and-up">
+		<img src="/img/portfolio/ticket-tournament/usability-testing-2.png" class="u-mb+">
 	</div>
 </div>
 
