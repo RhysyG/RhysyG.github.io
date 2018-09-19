@@ -101,13 +101,13 @@ The key insights that were passed to us were:
 #### Information Architecture
 
 <div class="o-layout  o-layout--center  u-mb+">
-	<div class="o-layout__item  u-1/2">
+	<div class="o-layout__item  u-1/1  u-1/2-lap-and-up">
 		<h6>Navigation</h6>
 		<p>The main path of the product is all lead from home. This consists of entering games, and accessing  games you've entered. </p>
 		<blockquote>So with this in mind, we mainly used local navigation, but kept notifications in the header of most top level pages.</blockquote>
 		<p>Until we have more information about how users will access notifications, we just played it safe. I haven’t identified many pages that need to be accessed globally and quickly so there is no need for some type of global bottom nav bar.</p>
 	</div>
-	<div class="o-layout__item  u-1/2">
+	<div class="o-layout__item  u-1/1  u-1/2-lap-and-up">
 		<h6>Sitemap</h6>
 		<img src="/img/portfolio/ticket-tournament/sitemap.png" class="u-mb+">
 	</div>
