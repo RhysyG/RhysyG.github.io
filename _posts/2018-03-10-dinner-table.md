@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dinner Table"
-date: 2018-07-21 10:30:00
+date: 2018-03-10 10:30:00
 author: Rhys Gregory
 categories: portfolio
 tags: [ux design, ui design]
@@ -22,7 +22,7 @@ excerpt: "Dinner Table makes it easy to catch up family or friends that are rest
 
 Dinner Table is a communication App that makes it easier to catch up with family or friends that are restricted by time zone and geographical boundaries.
 
-<small>Note: This is a unsolicited project demonstrating the UX Design Procress. The App has not gone into development.</small>
+<small>Note: This is a project for a startup idea. The App has not gone into development.</small>
 
 ## What are we trying to solve?
 

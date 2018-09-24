@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ticket Tournament"
-date: 2018-03-11
+date: 2018-07-21
 author: Rhys Gregory
 categories: portfolio
 tags: [ux design, ui design]
