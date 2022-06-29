@@ -32,7 +32,7 @@
 	&__title {
 		@include typography(title);
 		@include theme-prop(color, text-primary-on-dark);
-		text-transform: uppercase;
+		// text-transform: uppercase;
 		text-align: center;
 		@include media-query(lap-and-up) {
 			font-size: 3rem;

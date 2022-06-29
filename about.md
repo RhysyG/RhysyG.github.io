@@ -3,82 +3,69 @@ layout: page
 title: About
 permalink: /about/
 imageHero: rhys/rhys-working.jpg
-imageTitle: "Smart UX. Bold Design. Better Products."
+imageTitle: "Good design clarifies the products structure. Better still, it can make the product talk."
 ---
-Hi, I'm Rhys! **Great products** are what I’m about. Coming from a strong **UI Design** background, I’ve always been passionate about **User Experience**. From your daily email App to how your kitchen taps are designed, I’m naturally curious and always seeking the best from the products we use. Utilising my **Front End Design Development** skills, I can also pair this knowledge with developers in mind. The results are smart, efficient design that help speed your product to market. Get in touch!
+Hi, I'm Rhys! I’ve always been incredibly passionate about **User Experiences**. From your daily email App, to understanding how your kitchen taps are designed <i>(yes I've read The Design of Everyday Things one hundred times!)</i>, I’m naturally curious and always seeking the best from the products we use. Every great design begins with an even better story, and hopefully I can be apart of yours someday. Get in touch!
 
-<h1 class="u-mb0">Skill Set</h1>
-### _The secret sauce to getting the job done_
----
-
-<ul class="o-layout  o-layout--center  u-mt+  u-mb">
-
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/sketch.png" alt="sketch">
+# Skill set
+<ul class="o-layout  u-mb+">
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">User Research</h3>
+		<div>User interviews or Data driven. As they say; A problem well stated is a problem half solved</div>
 	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/invision.png" alt="invision">
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">Design strategy and Wireframing</h3>
+		<p class="u-mb-">Information architecture is the fundamental building blocks. Whether is be a catalog, flow or hierarchical structure, design must get this right.</p>
 	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/invision-studio.png" alt="invision-studio">
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">Usability testing</h3>
+		<p class="u-mb-">Do not seek praise. Seek criticism.</p>
 	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/html5.png" alt="html5">
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">Design systems</h3>
+		<p class="u-mb-">A language a team can understand. Adaptable, re-useable components supported by best practices of user interface design.</p>
 	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/css3.png" alt="css3">
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">Measuring the user experience</h3>
+		<p class="u-mb-">Understanding UX at scale. HEART metrics is a fav of mine.</p>
 	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/sass.png" alt="sass">
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">Managing and Mentoring</h3>
+		<p class="u-mb-">Mentoring, career development, and upskilling junior-mid designers.</p>
 	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/webpack.png" alt="gruntJS">
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">Interactions</h3>
+		<p class="u-mb-">Establish a better understanding of spatial relationships and prevent change blindness</p>
 	</li>
-	<li class="o-layout__item  u-1/4  u-1/8-lap-and-up">
-		<img class="u-mb" src="/img/vendors/git.png" alt="git">
+	<li class="o-layout__item  u-1/2-lap-and-up">
+		<h3 class="u-mb-">Expert developer handover</h3>
+		<p class="u-mb-">Designer + developer empathy. An architect understanding how to build a building makes them a more effecient architect. I understand advanced HTML and CSS for web apps.</p>
 	</li>
-
 </ul>
 
-<ul class="o-layout  o-layout--flush  u-mb">
+# Me outside work
 
-	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">UI Design</h3>
-		<div>Sketch, Studio</div>
-		<p>
-			<small>
-				<b>Design Philosophy</b>: Mobile First
-			</small>
-		</p>
+<ul class="o-layout  u-mb+">
+	<li class="o-layout__item  u-1/3-lap-and-up">
+		<h3 class="u-mb-">Music</h3>
+		<p>Whether it be writing or going to gigs, I just love music.</p>
+		<img class="u-mb" src="/img/rhys/hobby-01.jpeg">
 	</li>
-	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">User Experience</h3>
-		<div>User Research, User Testing, Content Strategy, Invision</div>
-		<p>
-			<small>
-				<b>UX Methodologies</b>: Design Sprint, User Centered Design
-			</small>
-		</p>
+	<li class="o-layout__item  u-1/3-lap-and-up">
+		<h3 class="u-mb-">Exercise challenges</h3>
+		<p>The marathon, an Ironman, anything! I'm always chasing a goal.</p>
+		<img class="u-mb" src="/img/rhys/hobby-02.jpeg">
 	</li>
-	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">Web Front End Design Development</h3>
-		<p class="u-mb0">HTML5, CSS, CSS3, SASS, Javascript, Git, Webpack, GruntJS, Bower, Jekyll.</p>
-		<p>
-			<small>
-				<b>CSS Methodologies</b>: COMPONENTS, ITCSS, BEM, SASS
-			</small>
-		</p>
+	<li class="o-layout__item  u-1/3-lap-and-up">
+		<h3 class="u-mb-">Cooking</h3>
+		<p>My wife opened my world to the joys and creativity of cooking.</p>
+		<img class="u-mb" src="/img/rhys/hobby-03.jpeg">
 	</li>
-	<li class="o-layout__item  u-1/2-lap-and-up">
-		<h3 class="u-mb-">Project Environment XP</h3>
-		<p>Agile software development</p>
-	</li>
-
 </ul>
 
-# MelbCSS Talk
+# Talks
 
-<div class="o-layout  o-layout--center  u-mt+  u-mb+">
+<div class="o-layout  o-layout--center  u-mb+">
 
 	<div class="o-layout__item  u-1/2-lap-and-up">
 		<div class="video-iframe  u-mb">
@@ -94,13 +81,10 @@ Hi, I'm Rhys! **Great products** are what I’m about. Coming from a strong **UI
 </div>
 
 # Social Pipes
----
 
 I am currently working full time but please feel free to *say hey* or enquire about a **small project** or **consultancy**. Whether it be *life style, financial, governement, e-commerce, health or sport*, I love working on a variety of projects, so please **get in touch!**
 
 <a class="o-btn  c-btn  u-mb" href="mailto:rhys.m.gregory@gmail.com">Email Me</a>
-
----
 
 <div class="o-media  o-media--center  u-mb">
 	<div class="o-media__item">
@@ -108,11 +92,11 @@ I am currently working full time but please feel free to *say hey* or enquire ab
 			<img width="25" src="/img/brands/dribbble.svg" alt="dribbble">
 		</a>
 	</div>
-	<div class="o-media__item">
+	<!-- <div class="o-media__item">
 		<a class="u-link-img" href="https://twitter.com/RhysyGregory" target="_blank">
 			<img width="25" src="/img/brands/twitter.png" alt="twitter">
 		</a>
-	</div>
+	</div> -->
 	<div class="o-media__item">
 		<a class="u-link-img" href="https://au.linkedin.com/in/rhys-gregory-28417510a" target="_blank">
 			<img width="25" src="/img/brands/linkedin.png" alt="linkedin">
@@ -125,4 +109,4 @@ I am currently working full time but please feel free to *say hey* or enquire ab
 	</div>
 </div>
 
-<div class="u-text-center"><small><i><b>© 2018 Rhys Gregory</b></i></small></div>
+<div class="u-text-center"><small><i><b>© 2022 Rhys Gregory</b></i></small></div>

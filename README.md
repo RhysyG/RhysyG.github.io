@@ -1,5 +1,8 @@
-# portfolio
+# Portfolio
 My Portfolio
+
+## Getting started
+* type grunt in the terminal
 
 ## Breakpoints
 * palm - 0-719

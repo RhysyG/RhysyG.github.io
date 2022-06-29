@@ -5,7 +5,7 @@
 .page-portfolio-title {
 	font-size: 2rem;
 	line-height: 1;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	@include media-query(lap-and-up) {
 		font-size: 3rem;
 	}

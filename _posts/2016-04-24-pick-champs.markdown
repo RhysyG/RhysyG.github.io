@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pick Champs"
-date: 2016-04-05 11:49:53
+date: 2016-05-23 10:30:00
 author: Rhys Gregory
 company: Artisan Digital
 companyURL: http://artisandd.com.au
