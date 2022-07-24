@@ -22,7 +22,7 @@ permalink: pretty
 # Navigation
 navigation:
 - text: 'Portfolio'
-  url: '/'
+  url: '/c3f63ee769c8f251565e45cf724f6e4efaee0387/portfolio/'
 - text: 'About'
   url: '/about/'
 
